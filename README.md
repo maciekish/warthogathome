@@ -1,4 +1,4 @@
-# Another Warthog Project
+# Warthog at Home
 
 This is a compilation of various resources to build an A-10C II cockpit for home entertainment. It is loosely based on [The Warthog Project](http://thewarthogproject.com) and frame designs by Flim on the ED forums.
 
