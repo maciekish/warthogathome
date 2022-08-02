@@ -8702,9 +8702,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <errors>
 <approved hash="102,1,12.7,7.62,GND-2,GND,,,,"/>
 <approved hash="104,1,12.7,12.7,PSU,1,VCC,,,"/>
-<approved hash="104,1,22.86,25.4,RS485-MASTER-1P,VCC,5VCC,,,"/>
-<approved hash="104,1,116.84,25.4,RS485-MASTER-2P,VCC,5VCC,,,"/>
-<approved hash="104,1,208.28,25.4,RS485-MASTER-3P,VCC,5VCC,,,"/>
+<approved hash="104,1,22.86,25.4,MASTER-1P,VCC,5VCC,,,"/>
+<approved hash="104,1,116.84,25.4,MASTER-2P,VCC,5VCC,,,"/>
+<approved hash="104,1,208.28,25.4,MASTER-3P,VCC,5VCC,,,"/>
 </errors>
 </schematic>
 </drawing>
