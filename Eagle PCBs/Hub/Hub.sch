@@ -196,6 +196,9 @@ https://www.aliexpress.com/item/32918645271.html?spm=a2g0o.order_list.0.0.494718
 <class number="0" name="default" width="0.4064" drill="0.254">
 <clearance class="0" value="0.1524"/>
 </class>
+<class number="1" name="5VCC" width="0.8382" drill="0.5334">
+<clearance class="1" value="0.1524"/>
+</class>
 </classes>
 <parts>
 <part name="UPLINK" library="A10 Library" deviceset="GX12-7P" device=""/>
@@ -486,6 +489,82 @@ https://www.aliexpress.com/item/32918645271.html?spm=a2g0o.order_list.0.0.494718
 <pinref part="8" gate="G$1" pin="4"/>
 <wire x1="109.22" y1="15.24" x2="109.22" y2="12.7" width="0.1524" layer="91"/>
 <junction x="109.22" y="15.24"/>
+</segment>
+</net>
+<net name="5VCC" class="1">
+<segment>
+<pinref part="UPLINK" gate="G$1" pin="5"/>
+<wire x1="7.62" y1="7.62" x2="15.24" y2="7.62" width="0.1524" layer="91"/>
+<label x="10.16" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="22.86" y1="7.62" x2="30.48" y2="7.62" width="0.1524" layer="91"/>
+<label x="25.4" y="7.62" size="1.778" layer="95"/>
+<pinref part="CHAIN" gate="G$1" pin="5"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="35.56" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
+<label x="33.02" y="35.56" size="1.778" layer="95"/>
+<wire x1="40.64" y1="35.56" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="1" gate="G$1" pin="5"/>
+<junction x="40.64" y="35.56"/>
+<pinref part="1" gate="G$1" pin="6"/>
+</segment>
+<segment>
+<wire x1="55.88" y1="35.56" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
+<label x="55.88" y="35.56" size="1.778" layer="95"/>
+<pinref part="2" gate="G$1" pin="5"/>
+<pinref part="2" gate="G$1" pin="6"/>
+<wire x1="63.5" y1="33.02" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
+<junction x="63.5" y="35.56"/>
+</segment>
+<segment>
+<wire x1="78.74" y1="35.56" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
+<label x="78.74" y="35.56" size="1.778" layer="95"/>
+<pinref part="3" gate="G$1" pin="5"/>
+<pinref part="3" gate="G$1" pin="6"/>
+<wire x1="86.36" y1="33.02" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
+<junction x="86.36" y="35.56"/>
+</segment>
+<segment>
+<wire x1="101.6" y1="35.56" x2="109.22" y2="35.56" width="0.1524" layer="91"/>
+<label x="101.6" y="35.56" size="1.778" layer="95"/>
+<pinref part="4" gate="G$1" pin="5"/>
+<pinref part="4" gate="G$1" pin="6"/>
+<wire x1="109.22" y1="33.02" x2="109.22" y2="35.56" width="0.1524" layer="91"/>
+<junction x="109.22" y="35.56"/>
+</segment>
+<segment>
+<wire x1="55.88" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
+<label x="55.88" y="10.16" size="1.778" layer="95"/>
+<pinref part="6" gate="G$1" pin="5"/>
+<pinref part="6" gate="G$1" pin="6"/>
+<wire x1="63.5" y1="7.62" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
+<junction x="63.5" y="10.16"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="10.16" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
+<label x="33.02" y="10.16" size="1.778" layer="95"/>
+<pinref part="5" gate="G$1" pin="5"/>
+<pinref part="5" gate="G$1" pin="6"/>
+<wire x1="40.64" y1="7.62" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
+<junction x="40.64" y="10.16"/>
+</segment>
+<segment>
+<wire x1="78.74" y1="10.16" x2="86.36" y2="10.16" width="0.1524" layer="91"/>
+<label x="78.74" y="10.16" size="1.778" layer="95"/>
+<pinref part="7" gate="G$1" pin="5"/>
+<pinref part="7" gate="G$1" pin="6"/>
+<wire x1="86.36" y1="7.62" x2="86.36" y2="10.16" width="0.1524" layer="91"/>
+<junction x="86.36" y="10.16"/>
+</segment>
+<segment>
+<wire x1="101.6" y1="10.16" x2="109.22" y2="10.16" width="0.1524" layer="91"/>
+<label x="101.6" y="10.16" size="1.778" layer="95"/>
+<pinref part="8" gate="G$1" pin="5"/>
+<pinref part="8" gate="G$1" pin="6"/>
+<wire x1="109.22" y1="7.62" x2="109.22" y2="10.16" width="0.1524" layer="91"/>
+<junction x="109.22" y="10.16"/>
 </segment>
 </net>
 </nets>

@@ -9406,6 +9406,7 @@ diameter 1.8 mm, horizontal, grid 7.62 mm</description>
 <part name="ANALOG" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:22461/2"/>
 <part name="MISC" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="GND" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="5V_BUS" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -9432,9 +9433,9 @@ diameter 1.8 mm, horizontal, grid 7.62 mm</description>
 <wire x1="203.2" y1="2.54" x2="144.78" y2="2.54" width="0.1524" layer="97"/>
 <wire x1="144.78" y1="2.54" x2="144.78" y2="66.04" width="0.1524" layer="97"/>
 <text x="147.32" y="60.96" size="1.778" layer="97">NANO</text>
-<wire x1="205.74" y1="66.04" x2="246.38" y2="66.04" width="0.1524" layer="97"/>
-<wire x1="246.38" y1="66.04" x2="246.38" y2="2.54" width="0.1524" layer="97"/>
-<wire x1="246.38" y1="2.54" x2="205.74" y2="2.54" width="0.1524" layer="97"/>
+<wire x1="205.74" y1="66.04" x2="266.7" y2="66.04" width="0.1524" layer="97"/>
+<wire x1="266.7" y1="66.04" x2="266.7" y2="2.54" width="0.1524" layer="97"/>
+<wire x1="266.7" y1="2.54" x2="205.74" y2="2.54" width="0.1524" layer="97"/>
 <wire x1="205.74" y1="2.54" x2="205.74" y2="66.04" width="0.1524" layer="97"/>
 <text x="208.28" y="60.96" size="1.778" layer="97">NANO BREAKOUT</text>
 </plain>
@@ -9498,13 +9499,17 @@ diameter 1.8 mm, horizontal, grid 7.62 mm</description>
 <attribute name="NAME" x="217.17" y="36.195" size="1.778" layer="95"/>
 <attribute name="VALUE" x="217.17" y="20.32" size="1.778" layer="96"/>
 </instance>
-<instance part="MISC" gate="G$1" x="223.52" y="7.62" smashed="yes">
-<attribute name="NAME" x="217.17" y="13.335" size="1.778" layer="95"/>
-<attribute name="VALUE" x="217.17" y="2.54" size="1.778" layer="96"/>
+<instance part="MISC" gate="G$1" x="228.6" y="10.16" smashed="yes">
+<attribute name="NAME" x="222.25" y="15.875" size="1.778" layer="95"/>
+<attribute name="VALUE" x="222.25" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="GND" gate="A" x="241.3" y="10.16" smashed="yes">
-<attribute name="NAME" x="234.95" y="18.415" size="1.778" layer="95"/>
-<attribute name="VALUE" x="234.95" y="2.54" size="1.778" layer="96"/>
+<instance part="GND" gate="A" x="261.62" y="27.94" smashed="yes">
+<attribute name="NAME" x="255.27" y="36.195" size="1.778" layer="95"/>
+<attribute name="VALUE" x="255.27" y="20.32" size="1.778" layer="96"/>
+</instance>
+<instance part="5V_BUS" gate="A" x="261.62" y="48.26" smashed="yes">
+<attribute name="NAME" x="255.27" y="56.515" size="1.778" layer="95"/>
+<attribute name="VALUE" x="255.27" y="40.64" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9581,22 +9586,22 @@ diameter 1.8 mm, horizontal, grid 7.62 mm</description>
 </segment>
 <segment>
 <pinref part="GND" gate="A" pin="1"/>
-<wire x1="238.76" y1="15.24" x2="228.6" y2="15.24" width="0.1524" layer="91"/>
-<label x="228.6" y="15.24" size="1.778" layer="95"/>
+<wire x1="259.08" y1="33.02" x2="248.92" y2="33.02" width="0.1524" layer="91"/>
+<label x="248.92" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="12.7" x2="228.6" y2="12.7" width="0.1524" layer="91"/>
-<label x="228.6" y="12.7" size="1.778" layer="95"/>
+<wire x1="259.08" y1="30.48" x2="248.92" y2="30.48" width="0.1524" layer="91"/>
+<label x="248.92" y="30.48" size="1.778" layer="95"/>
 <pinref part="GND" gate="A" pin="2"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="10.16" x2="228.6" y2="10.16" width="0.1524" layer="91"/>
-<label x="228.6" y="10.16" size="1.778" layer="95"/>
+<wire x1="259.08" y1="27.94" x2="248.92" y2="27.94" width="0.1524" layer="91"/>
+<label x="248.92" y="27.94" size="1.778" layer="95"/>
 <pinref part="GND" gate="A" pin="3"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="7.62" x2="228.6" y2="7.62" width="0.1524" layer="91"/>
-<label x="228.6" y="7.62" size="1.778" layer="95"/>
+<wire x1="259.08" y1="25.4" x2="248.92" y2="25.4" width="0.1524" layer="91"/>
+<label x="248.92" y="25.4" size="1.778" layer="95"/>
 <pinref part="GND" gate="A" pin="4"/>
 </segment>
 </net>
@@ -9925,8 +9930,8 @@ diameter 1.8 mm, horizontal, grid 7.62 mm</description>
 </segment>
 <segment>
 <pinref part="MISC" gate="G$1" pin="1"/>
-<wire x1="220.98" y1="10.16" x2="208.28" y2="10.16" width="0.1524" layer="91"/>
-<label x="208.28" y="10.16" size="1.778" layer="95"/>
+<wire x1="226.06" y1="12.7" x2="213.36" y2="12.7" width="0.1524" layer="91"/>
+<label x="213.36" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D13" class="0">
@@ -9949,8 +9954,38 @@ diameter 1.8 mm, horizontal, grid 7.62 mm</description>
 </segment>
 <segment>
 <pinref part="MISC" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="7.62" x2="208.28" y2="7.62" width="0.1524" layer="91"/>
-<label x="208.28" y="7.62" size="1.778" layer="95"/>
+<wire x1="226.06" y1="10.16" x2="213.36" y2="10.16" width="0.1524" layer="91"/>
+<label x="213.36" y="10.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="5V_BUS" class="0">
+<segment>
+<pinref part="UPLINK" gate="G$1" pin="5"/>
+<wire x1="5.08" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="UPLINK" gate="G$1" pin="6"/>
+<wire x1="15.24" y1="12.7" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
+<junction x="15.24" y="15.24"/>
+<label x="5.08" y="15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="246.38" y1="53.34" x2="259.08" y2="53.34" width="0.1524" layer="91"/>
+<label x="246.38" y="53.34" size="1.778" layer="95"/>
+<pinref part="5V_BUS" gate="A" pin="1"/>
+</segment>
+<segment>
+<wire x1="246.38" y1="50.8" x2="259.08" y2="50.8" width="0.1524" layer="91"/>
+<label x="246.38" y="50.8" size="1.778" layer="95"/>
+<pinref part="5V_BUS" gate="A" pin="2"/>
+</segment>
+<segment>
+<wire x1="246.38" y1="48.26" x2="259.08" y2="48.26" width="0.1524" layer="91"/>
+<label x="246.38" y="48.26" size="1.778" layer="95"/>
+<pinref part="5V_BUS" gate="A" pin="3"/>
+</segment>
+<segment>
+<wire x1="246.38" y1="45.72" x2="259.08" y2="45.72" width="0.1524" layer="91"/>
+<label x="246.38" y="45.72" size="1.778" layer="95"/>
+<pinref part="5V_BUS" gate="A" pin="4"/>
 </segment>
 </net>
 </nets>
@@ -9958,14 +9993,15 @@ diameter 1.8 mm, horizontal, grid 7.62 mm</description>
 </sheets>
 <errors>
 <approved hash="104,1,55.626,56.134,RS485P,VCC,5VCC,,,"/>
-<approved hash="113,1,18.0171,54.8361,TERM,,,,,"/>
+<approved hash="113,1,18.0171,54.8056,TERM,,,,,"/>
 <approved hash="113,1,120.737,50.8,LED,,,,,"/>
-<approved hash="113,1,168.637,34.5161,NANO-1,,,,,"/>
-<approved hash="113,1,194.037,34.5161,NANO-2,,,,,"/>
-<approved hash="113,1,224.748,49.7561,DIGITAL,,,,,"/>
-<approved hash="113,1,224.748,30.7061,ANALOG,,,,,"/>
-<approved hash="113,1,221.217,10.3861,MISC,,,,,"/>
-<approved hash="113,1,238.997,12.9261,GND,,,,,"/>
+<approved hash="113,1,168.637,34.4856,NANO-1,,,,,"/>
+<approved hash="113,1,194.037,34.4856,NANO-2,,,,,"/>
+<approved hash="113,1,224.748,49.7256,DIGITAL,,,,,"/>
+<approved hash="113,1,224.748,30.6756,ANALOG,,,,,"/>
+<approved hash="113,1,226.297,12.8956,MISC,,,,,"/>
+<approved hash="113,1,259.317,30.6756,GND,,,,,"/>
+<approved hash="113,1,260.148,50.9956,5V_BUS,,,,,"/>
 </errors>
 </schematic>
 </drawing>
