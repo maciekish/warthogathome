@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX487CPA+
+D MAX487CPA+, Line Transceiver, RS-485, RS-422 Differential, 5 V, 8-Pin PDIP
+K
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+#End Doc Library

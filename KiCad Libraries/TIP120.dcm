@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TIP120
+D NPN darlington transistor,TIP120 5A
+K
+F https://www.st.com/resource/en/datasheet/cd00000911.pdf
+$ENDCMP
+#
+#End Doc Library
