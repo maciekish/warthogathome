@@ -110,27 +110,27 @@
   (net 25 "unconnected-(BUS-3-Pad3)")
   (net 26 "unconnected-(BUS-3-Pad4)")
 
-  (footprint "MountingHole:MountingHole_4.3mm_M4" (layer "F.Cu")
+  (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 016688f6-3203-4961-816e-eb73633344d8)
     (at 99.695 26.67)
-    (descr "Mounting Hole 4.3mm, no annular, M4")
-    (tags "mounting hole 4.3mm no annular m4")
-    (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -5.3) (layer "F.SilkS") hide
+    (descr "Mounting Hole 3.2mm, no annular, M3")
+    (tags "mounting hole 3.2mm no annular m3")
+    (attr exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 62e7fc83-71cd-49cb-a9c0-69e7975e70a1)
+      (tstamp 11858b6d-d09d-4d04-a0db-ea89e4b7d035)
     )
-    (fp_text value "MountingHole_4.3mm_M4" (at 0 5.3) (layer "F.Fab") hide
+    (fp_text value "MountingHole_3.2mm_M3" (at 0 4.2) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 89fece09-1553-42d6-8699-194b2488831e)
+      (tstamp 342194a2-cd28-46bb-bc5d-b9176a324946)
     )
     (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 085e5947-1591-411b-bf18-39fb958a4566)
+      (tstamp 0a215dba-0ef5-43b7-bd65-a9b7eea8db7e)
     )
-    (fp_circle (center 0 0) (end 4.3 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp fc5002b3-714f-40fc-a347-e94a250fd128))
-    (fp_circle (center 0 0) (end 4.55 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 114b1306-8088-48dd-bb6e-9f613ee8f95d))
-    (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask) (tstamp d0435931-0214-4428-af91-0020b57bbb89))
+    (fp_circle (center 0 0) (end 3.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 196a5e82-d525-469e-80cd-f70f645a942a))
+    (fp_circle (center 0 0) (end 3.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 5427c665-8359-4700-b425-e538908c818e))
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask) (tstamp 64e286ba-cd0c-4c50-a2b0-fbbb5e510307))
   )
 
   (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" (layer "F.Cu")
@@ -177,27 +177,27 @@
     )
   )
 
-  (footprint "MountingHole:MountingHole_4.3mm_M4" (layer "F.Cu")
+  (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 11d35fd0-4d0f-47e4-bd17-c80e950d15ee)
     (at 99.695 73.025)
-    (descr "Mounting Hole 4.3mm, no annular, M4")
-    (tags "mounting hole 4.3mm no annular m4")
-    (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -5.3) (layer "F.SilkS") hide
+    (descr "Mounting Hole 3.2mm, no annular, M3")
+    (tags "mounting hole 3.2mm no annular m3")
+    (attr exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 62e7fc83-71cd-49cb-a9c0-69e7975e70a1)
+      (tstamp 6fc4b1ec-2009-4a50-acc3-934e2b140f07)
     )
-    (fp_text value "MountingHole_4.3mm_M4" (at 0 5.3) (layer "F.Fab") hide
+    (fp_text value "MountingHole_3.2mm_M3" (at 0 4.2) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 89fece09-1553-42d6-8699-194b2488831e)
+      (tstamp 3ef920cb-4d22-406b-9eeb-759e5ba4c99b)
     )
     (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 085e5947-1591-411b-bf18-39fb958a4566)
+      (tstamp 3e7edf92-ead6-413c-928d-b2e85131e117)
     )
-    (fp_circle (center 0 0) (end 4.3 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp fc5002b3-714f-40fc-a347-e94a250fd128))
-    (fp_circle (center 0 0) (end 4.55 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 114b1306-8088-48dd-bb6e-9f613ee8f95d))
-    (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask) (tstamp d0435931-0214-4428-af91-0020b57bbb89))
+    (fp_circle (center 0 0) (end 3.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 8d07fc28-6cc7-452b-a566-457dec67d8d6))
+    (fp_circle (center 0 0) (end 3.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp b939188c-3e9d-4add-a245-8e0c8b3ff8d1))
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask) (tstamp 7d3afa93-bdfd-4f2f-91f0-d6fb1fb064ef))
   )
 
   (footprint "A10 KiCad Libraries:SHDR6W64P0X250_1X6_1740X575X700P" (layer "F.Cu")
@@ -209,7 +209,7 @@
     (property "Sheetname" "")
     (path "/2352737b-6333-4a33-82cc-f54c3f9d33f3")
     (attr through_hole)
-    (fp_text reference "MEGA-2" (at 15.875 0 180) (layer "F.SilkS")
+    (fp_text reference "MEGA-2" (at 15.875 0 180) (layer "F.SilkS") hide
       (effects (font (size 0.8128 0.8128) (thickness 0.2032)))
       (tstamp cfc8ea36-cde2-490c-b0e5-602f1cd2deaf)
     )
@@ -217,7 +217,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 758ddc19-95d3-40cf-b0da-7007bda88c47)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 97051cf5-f919-4e7c-b3a4-351a353c5b46)
     )
@@ -300,27 +300,27 @@
     )
   )
 
-  (footprint "MountingHole:MountingHole_4.3mm_M4" (layer "F.Cu")
+  (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 5239598c-07f8-4b34-885b-80ed02198fb4)
     (at 27.94 26.67)
-    (descr "Mounting Hole 4.3mm, no annular, M4")
-    (tags "mounting hole 4.3mm no annular m4")
-    (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -5.3) (layer "F.SilkS") hide
+    (descr "Mounting Hole 3.2mm, no annular, M3")
+    (tags "mounting hole 3.2mm no annular m3")
+    (attr exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 62e7fc83-71cd-49cb-a9c0-69e7975e70a1)
+      (tstamp fb9f8cc2-f6fc-46c2-b0bb-703768c706d1)
     )
-    (fp_text value "MountingHole_4.3mm_M4" (at 0 5.3) (layer "F.Fab") hide
+    (fp_text value "MountingHole_3.2mm_M3" (at 0 4.2) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 89fece09-1553-42d6-8699-194b2488831e)
+      (tstamp 109d0570-537f-4acc-a36f-0da82320a152)
     )
     (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 085e5947-1591-411b-bf18-39fb958a4566)
+      (tstamp 02925669-bd02-447f-bc83-7a69b56a3ffc)
     )
-    (fp_circle (center 0 0) (end 4.3 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp fc5002b3-714f-40fc-a347-e94a250fd128))
-    (fp_circle (center 0 0) (end 4.55 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 114b1306-8088-48dd-bb6e-9f613ee8f95d))
-    (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask) (tstamp d0435931-0214-4428-af91-0020b57bbb89))
+    (fp_circle (center 0 0) (end 3.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 959333d4-74d4-4296-a81c-6692e4ebbdbb))
+    (fp_circle (center 0 0) (end 3.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp dae5d1d8-d4bd-42e8-88a6-35b6880a592f))
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask) (tstamp 6950f5a2-7bd8-4459-b390-d38a4c6d6e4c))
   )
 
   (footprint "A10 KiCad Libraries:Molex 43045-0800" (layer "F.Cu")
@@ -395,7 +395,7 @@
     (property "Sheetname" "")
     (path "/4f38c9ea-c8b8-48cb-bccb-ddabf53b434c")
     (attr through_hole)
-    (fp_text reference "MEGA-1" (at -3.175 0 180) (layer "F.SilkS")
+    (fp_text reference "MEGA" (at -3.262772 -0.317145 180) (layer "F.SilkS")
       (effects (font (size 0.8128 0.8128) (thickness 0.2032)))
       (tstamp 56a08741-5f3e-4ccc-bf7d-7fa8e5d2b4be)
     )
@@ -403,7 +403,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 6ffc2113-e9c5-4652-ac7e-30588786192d)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp f5181b2b-625e-43ed-abe1-cdd876bee5f6)
     )
@@ -774,27 +774,27 @@
     )
   )
 
-  (footprint "MountingHole:MountingHole_4.3mm_M4" (layer "F.Cu")
+  (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp cfba2d97-d07e-4ad0-a0a4-5e13f4a96e20)
     (at 27.94 73.025)
-    (descr "Mounting Hole 4.3mm, no annular, M4")
-    (tags "mounting hole 4.3mm no annular m4")
-    (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -5.3) (layer "F.SilkS") hide
+    (descr "Mounting Hole 3.2mm, no annular, M3")
+    (tags "mounting hole 3.2mm no annular m3")
+    (attr exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 62e7fc83-71cd-49cb-a9c0-69e7975e70a1)
+      (tstamp 2b920fb4-c2c2-4d00-ba3f-d548151f4fa7)
     )
-    (fp_text value "MountingHole_4.3mm_M4" (at 0 5.3) (layer "F.Fab") hide
+    (fp_text value "MountingHole_3.2mm_M3" (at 0 4.2) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 89fece09-1553-42d6-8699-194b2488831e)
+      (tstamp 8a8b4ff8-93bd-4171-bb98-f5722656c7a0)
     )
     (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 085e5947-1591-411b-bf18-39fb958a4566)
+      (tstamp 95ed8aa3-f330-45ac-aeb5-41b2b17a4666)
     )
-    (fp_circle (center 0 0) (end 4.3 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp fc5002b3-714f-40fc-a347-e94a250fd128))
-    (fp_circle (center 0 0) (end 4.55 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 114b1306-8088-48dd-bb6e-9f613ee8f95d))
-    (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask) (tstamp d0435931-0214-4428-af91-0020b57bbb89))
+    (fp_circle (center 0 0) (end 3.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 0d58f7df-a32f-4e0a-8a98-d8fb342a7683))
+    (fp_circle (center 0 0) (end 3.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 19a9e6bb-efbe-455d-83a8-7795d59ee6b3))
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask) (tstamp 05fa5012-e9c7-49f8-9a29-a57e77fb4324))
   )
 
   (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" (layer "F.Cu")
