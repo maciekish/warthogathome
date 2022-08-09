@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_overlap|117011509|108447518|a86c6b74-e791-4eed-88cb-c4c9b8cfd0e2|f00d3eec-241a-4c12-a21e-7dc0fd8cc113",
+        "silk_overlap|34616509|58127518|a86c6b74-e791-4eed-88cb-c4c9b8cfd0e2|f00d3eec-241a-4c12-a21e-7dc0fd8cc113"
+      ],
       "meta": {
         "version": 2
       },
@@ -85,7 +88,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
@@ -124,7 +127,7 @@
         0.3048,
         0.4064,
         0.8128,
-        3.048
+        3.556
       ],
       "via_dimensions": [
         {
@@ -375,7 +378,7 @@
       },
       {
         "bus_width": 32.0,
-        "clearance": 0.3048,
+        "clearance": 0.4064,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -387,11 +390,14 @@
           "+12V",
           "+12V_2",
           "+12V_3",
+          "/12V_2_Fused",
+          "/12V_3_Fused",
+          "12V_Fused",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 3.048,
+        "track_width": 3.556,
         "via_diameter": 3.81,
         "via_drill": 0.762,
         "wire_width": 32.0
@@ -408,8 +414,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "Master.dsn",
-      "step": "",
-      "vrml": ""
+      "step": "../../../../../../Desktop/Master.STEP",
+      "vrml": "../../../../../../Desktop/Master.wrl"
     },
     "page_layout_descr_file": ""
   },
