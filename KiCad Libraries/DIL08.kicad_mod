@@ -32,4 +32,9 @@
     (solder_mask_margin 0.1016) (tstamp 13a7f329-7524-48d0-9497-fbcee0ad7293))
   (pad "8" thru_hole oval (at -3.81 -3.81 90) (size 2.6416 1.3208) (drill 0.8128) (layers *.Cu *.Mask)
     (solder_mask_margin 0.1016) (tstamp 10bcbffb-55d0-4d1d-a65f-0d356d984993))
+  (model "${KIPRJMOD}/../../KiCad Libraries/MAX487CPA+.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

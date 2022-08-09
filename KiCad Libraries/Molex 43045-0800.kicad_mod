@@ -43,7 +43,7 @@
   (pad "6" thru_hole circle (at -3 -3) (size 1.52 1.52) (drill 1.02) (layers *.Cu *.Mask) (tstamp 3c9deec6-c93b-4a10-af70-46eb8efe0082))
   (pad "7" thru_hole circle (at -6 -3) (size 1.52 1.52) (drill 1.02) (layers *.Cu *.Mask) (tstamp 1f3fa81e-1d9d-448b-95be-6c4844e0a3a0))
   (pad "8" thru_hole circle (at -9 -3) (size 1.52 1.52) (drill 1.02) (layers *.Cu *.Mask) (tstamp 973ad2bf-ffba-419f-b327-02bece7ae5f1))
-  (model "43045-0800.stp"
+  (model "${KIPRJMOD}/../../KiCad Libraries/43045-0800.stp"
     (offset (xyz -4.445 -3.937 3.81))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

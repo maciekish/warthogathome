@@ -31,7 +31,7 @@
   (pad "1" thru_hole rect (at 0 0) (size 1.98 1.98) (drill 1.32) (layers *.Cu *.Mask) (tstamp b8356e5c-ca44-4c3a-877d-b9125ad5322c))
   (pad "2" thru_hole circle (at 2.55 0) (size 1.98 1.98) (drill 1.32) (layers *.Cu *.Mask) (tstamp b6a2947e-7d11-4e14-b32a-b5da9535cb71))
   (pad "3" thru_hole circle (at 5.1 0) (size 1.98 1.98) (drill 1.32) (layers *.Cu *.Mask) (tstamp e17ce73c-c9ab-4be8-b648-79a53ad563d9))
-  (model "L7805CV.stp"
+  (model "${KIPRJMOD}/../../KiCad Libraries/L7805CV.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
