@@ -384,12 +384,6 @@
         "microvia_drill": 0.762,
         "name": "High Current",
         "nets": [
-          "+12V",
-          "+12V_2",
-          "+12V_3",
-          "/12V_2_Fused",
-          "/12V_3_Fused",
-          "12V_Fused",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",

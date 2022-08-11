@@ -31,4 +31,9 @@
     (solder_mask_margin 0.1016) (tstamp c57dd8d9-8cf6-4589-8e7b-51e3ad1b3f78))
   (pad "8" thru_hole circle (at -4.445 8.89) (size 1.6764 1.6764) (drill 0.9) (layers *.Cu *.Mask)
     (solder_mask_margin 0.1016) (tstamp 87195c73-2e82-49ed-979a-7efeecf9dc6c))
+  (model "${KICAD6_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE538X.step"
+    (offset (xyz -3.429 -1.905 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
