@@ -30,7 +30,7 @@
   (pad "1" thru_hole circle (at -2.235 0) (size 2.48 2.48) (drill 1.65) (layers *.Cu *.Mask) (tstamp de1d114b-6a71-49e3-a808-e8f929dedf2b))
   (pad "2" thru_hole circle (at 5.895 0) (size 2.48 2.48) (drill 1.65) (layers *.Cu *.Mask) (tstamp 366de1f0-892a-40c1-8f6e-0b26d45b1700))
   (pad "2" thru_hole circle (at 2.235 0) (size 2.48 2.48) (drill 1.65) (layers *.Cu *.Mask) (tstamp c098eced-b849-4e22-bfae-fe3c6082353b))
-  (model ":WathogAtHome:BK-6013.step"
+  (model ":WarthogAtHome:BK-6013.step"
     (offset (xyz 0 0 -2.54))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
