@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.048,
+          "height": 4.064,
+          "width": 4.064
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.6095999999999999
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -57,6 +57,7 @@
       ],
       "drc_exclusions": [],
       "meta": {
+        "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
@@ -114,8 +115,6 @@
         "min_track_width": 0.15239999999999998,
         "min_via_annular_width": 0.127,
         "min_via_diameter": 0.508,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
@@ -330,14 +329,14 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "ignore",
+      "lib_symbol_issues": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -351,7 +350,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Hub.kicad_pro",
+    "filename": "Master Shield.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -384,7 +383,14 @@
         "microvia_drill": 0.762,
         "name": "High Current",
         "nets": [
-          "GND"
+          "+12V",
+          "+12V_2",
+          "+12V_3",
+          "/12V_2_Fused",
+          "/12V_3_Fused",
+          "12V_Fused",
+          "GND",
+          "VCC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -392,26 +398,6 @@
         "via_diameter": 3.81,
         "via_drill": 0.762,
         "wire_width": 32.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.254,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.635,
-        "microvia_drill": 0.254,
-        "name": "Medium Current",
-        "nets": [
-          "5V"
-        ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.8128,
-        "via_diameter": 1.6256,
-        "via_drill": 0.6096,
-        "wire_width": 12.0
       }
     ],
     "meta": {
@@ -433,18 +419,21 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "default_bus_thickness": 12.0,
+      "default_junction_size": 40.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
+      "default_wire_thickness": 6.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
-      "intersheets_ref_short": true,
+      "intersheets_ref_short": false,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.3,
       "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "text_offset_ratio": 0.3
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -470,7 +459,7 @@
   },
   "sheets": [
     [
-      "dad86a05-e7d7-4f47-976d-8dd166a5355f",
+      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
     ]
   ],
