@@ -350,8 +350,14 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "A10 KiCad Libraries",
+      "JLCPCB"
+    ],
+    "pinned_symbol_libs": [
+      "A10",
+      "JLCPCB"
+    ]
   },
   "meta": {
     "filename": "Master Shield.kicad_pro",

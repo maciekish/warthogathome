@@ -252,7 +252,7 @@
       (net 39 "RS485-2-") (pinfunction "B") (pintype "bidirectional") (tstamp 952e10f1-4101-46df-92e2-f5e45348418d))
     (pad "8" smd oval (at -1.905004 -2.705105 270) (size 0.568402 1.950216) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp e44ada6b-8c75-46c6-adc2-f1e9c5004020))
-    (model ":WarthogAtHome:/JLC2KiCad_lib/footprint/packages3d/SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL.wrl"
+    (model ":WarthogAtHome:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL.wrl"
       (offset (xyz 0 0 -0.0508))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -350,7 +350,7 @@
       (net 1 "GND") (pinfunction "Pin_3") (pintype "passive") (tstamp 7de4ca27-5c88-482e-bdc5-0f4be1707de3))
     (pad "4" thru_hole circle (at -1.498603 -6.148717 90) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask)
       (net 19 "+12V") (pinfunction "Pin_4") (pintype "passive") (tstamp 44d120a5-2116-4c98-86e4-9bc6831f6fc0))
-    (model ":WarthogAtHome:JLC2KiCad_lib/footprint/packages3d/CONN-TH_0430450400.wrl"
+    (model ":WarthogAtHome:CONN-TH_0430450400.wrl"
       (offset (xyz 0 4.699 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -464,7 +464,7 @@
       (net 41 "RS485-3-") (pinfunction "Pin_7") (pintype "passive") (tstamp b38e3f98-6009-4e1e-a388-c2a150fc4ab0))
     (pad "8" thru_hole circle (at -4.499873 -0.349873) (size 2 2) (drill 1.300025) (layers *.Cu *.Mask)
       (net 42 "RS485-3+") (pinfunction "Pin_8") (pintype "passive") (tstamp f0f7be6a-880b-437a-8699-2397d89f3d6f))
-    (model ":WarthogAtHome:JLC2KiCad_lib/footprint/packages3d/CONN-TH_430450812.wrl"
+    (model ":WarthogAtHome:CONN-TH_430450812.wrl"
       (offset (xyz 0 -1.143 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -502,7 +502,7 @@
       (net 1 "GND") (pintype "passive") (clearance 0.1524) (tstamp b93edbaf-ddd1-417c-90c3-c6d981094714))
     (pad "2" smd rect (at 0.545085 0) (size 0.790094 0.540005) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "+5V") (pintype "passive") (tstamp 663f868f-8f3f-4447-99ca-9ebc6ceda074))
-    (model ":WarthogAtHome:/JLC2KiCad_lib/footprint/packages3d/C0402.wrl"
+    (model ":WarthogAtHome:C0402.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -540,7 +540,7 @@
       (net 1 "GND") (pintype "passive") (clearance 0.1524) (tstamp 04eaec2c-bcc7-45ad-8b40-a4be797c2c7b))
     (pad "2" smd rect (at 0.545085 0) (size 0.790094 0.540005) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "+5V") (pintype "passive") (tstamp e24589db-087c-4c01-bd7a-41dd2bf456d7))
-    (model ":WarthogAtHome:/JLC2KiCad_lib/footprint/packages3d/C0402.wrl"
+    (model ":WarthogAtHome:C0402.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -639,7 +639,7 @@
       (net 37 "RS485-1-") (pinfunction "B") (pintype "bidirectional") (tstamp a59ce236-147e-4325-95ec-4c6c8a1316a5))
     (pad "8" smd oval (at -1.905004 -2.705105 270) (size 0.568402 1.950216) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp ebd5efb5-b586-4078-b403-af5b429ed855))
-    (model ":WarthogAtHome:/JLC2KiCad_lib/footprint/packages3d/SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL.wrl"
+    (model ":WarthogAtHome:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL.wrl"
       (offset (xyz 0 0 -0.0508))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -792,7 +792,7 @@
       (net 1 "GND") (pinfunction "Pin_3") (pintype "passive") (tstamp 245b1872-e5b1-41b7-9972-b019822cf813))
     (pad "4" thru_hole circle (at -1.498603 -6.148717 90) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask)
       (net 21 "+12V_3") (pinfunction "Pin_4") (pintype "passive") (tstamp 5a8acb54-f8ba-43e7-8294-bfdea5ac98b2))
-    (model ":WarthogAtHome:JLC2KiCad_lib/footprint/packages3d/CONN-TH_0430450400.wrl"
+    (model ":WarthogAtHome:CONN-TH_0430450400.wrl"
       (offset (xyz 0 4.699 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -896,7 +896,7 @@
       (net 1 "GND") (pinfunction "Pin_3") (pintype "passive") (tstamp 5658cbeb-96a5-4bb7-bbb5-6eb20ac63031))
     (pad "4" thru_hole circle (at -1.498603 -6.148717 90) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask)
       (net 20 "+12V_2") (pinfunction "Pin_4") (pintype "passive") (tstamp 9e245264-e6f7-47cb-b170-a3d323917c93))
-    (model ":WarthogAtHome:JLC2KiCad_lib/footprint/packages3d/CONN-TH_0430450400.wrl"
+    (model ":WarthogAtHome:CONN-TH_0430450400.wrl"
       (offset (xyz 0 4.699 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -934,7 +934,7 @@
       (net 1 "GND") (pintype "passive") (clearance 0.1524) (tstamp 251269e0-9d9c-42bc-829b-0576a676cfb6))
     (pad "2" smd rect (at 0.545085 0) (size 0.790094 0.540005) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "+5V") (pintype "passive") (tstamp a319316c-7ce9-493a-be17-8018681f0f49))
-    (model ":WarthogAtHome:/JLC2KiCad_lib/footprint/packages3d/C0402.wrl"
+    (model ":WarthogAtHome:C0402.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1132,7 +1132,7 @@
       (net 39 "RS485-2-") (pinfunction "Pin_7") (pintype "passive") (tstamp e39daba0-ae59-4a54-8f5c-e634146d3d78))
     (pad "8" thru_hole circle (at -4.499873 -0.349873) (size 2 2) (drill 1.300025) (layers *.Cu *.Mask)
       (net 40 "RS485-2+") (pinfunction "Pin_8") (pintype "passive") (tstamp 7919f1e9-ce7b-440d-89f7-809732f68f75))
-    (model ":WarthogAtHome:JLC2KiCad_lib/footprint/packages3d/CONN-TH_430450812.wrl"
+    (model ":WarthogAtHome:CONN-TH_430450812.wrl"
       (offset (xyz 0 -1.143 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1188,7 +1188,7 @@
       (net 41 "RS485-3-") (pinfunction "B") (pintype "bidirectional") (tstamp 058b1f2f-d302-429e-8c30-4848173d2045))
     (pad "8" smd oval (at -1.905004 -2.705105 270) (size 0.568402 1.950216) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp 501b4cd5-45b4-44ef-bdba-00e0d2b2f207))
-    (model ":WarthogAtHome:/JLC2KiCad_lib/footprint/packages3d/SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL.wrl"
+    (model ":WarthogAtHome:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL.wrl"
       (offset (xyz 0 0 -0.0508))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1477,7 +1477,7 @@
       (net 37 "RS485-1-") (pinfunction "Pin_7") (pintype "passive") (tstamp 4c2e1df3-524b-4f1a-bf2b-64536dd7db2a))
     (pad "8" thru_hole circle (at -4.499873 -0.349873) (size 2 2) (drill 1.300025) (layers *.Cu *.Mask)
       (net 38 "RS485-1+") (pinfunction "Pin_8") (pintype "passive") (tstamp abf2460e-349f-4dc9-80d7-99ddaf33ae46))
-    (model ":WarthogAtHome:JLC2KiCad_lib/footprint/packages3d/CONN-TH_430450812.wrl"
+    (model ":WarthogAtHome:CONN-TH_430450812.wrl"
       (offset (xyz 0 -1.143 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
