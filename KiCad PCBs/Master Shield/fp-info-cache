@@ -1,4 +1,4 @@
-20516279182087842
+20526245091951480
 A10 KiCad Libraries
 B2BXH2LFSN
 B2B-XH-2 (LF)(SN)-1
@@ -41,6 +41,13 @@ DIL08
 0
 8
 8
+A10 KiCad Libraries
+F1812
+F1812 footprint
+F1812 footprint
+0
+2
+2
 A10 KiCad Libraries
 FA14
 FA14
@@ -119,6 +126,13 @@ OSC-SMD_4P-L3.2-W2.5-BL footprint
 4
 4
 A10 KiCad Libraries
+QFN-28_L5.0-W5.0-P0.50-BL-EP3.2
+WQFN-28_L5.0-W5.0-P0.50-BL-EP3.2 footprint
+WQFN-28_L5.0-W5.0-P0.50-BL-EP3.2 footprint
+0
+29
+29
+A10 KiCad Libraries
 R0805
 R0805 footprint
 R0805 footprint
@@ -132,6 +146,13 @@ RJ45-8P8C
 0
 8
 8
+A10 KiCad Libraries
+RJ45-TH_B-1-1
+RJ45-TH_B-1-1 footprint
+RJ45-TH_B-1-1 footprint
+0
+14
+13
 A10 KiCad Libraries
 RJ45-TH_B-1-4
 RJ45-TH_B-1-4 footprint
@@ -147,6 +168,13 @@ RJ45-TH_DS1128-09-S8B8S footprint
 14
 14
 A10 KiCad Libraries
+SOD-123F_L2.8-W1.8-LS3.7-RD
+SOD-123F_L2.8-W1.8-LS3.7-RD footprint
+SOD-123F_L2.8-W1.8-LS3.7-RD footprint
+0
+2
+2
+A10 KiCad Libraries
 SOD-123_L2.7-W1.6-LS3.7-RD-1
 SOD-123_L2.7-W1.6-LS3.7-RD-1 footprint
 SOD-123_L2.7-W1.6-LS3.7-RD-1 footprint
@@ -160,6 +188,13 @@ SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL footprint
 0
 8
 8
+A10 KiCad Libraries
+SOP-16_L10.0-W3.9-P1.27-LS6.0-BL
+SOP-16_L10.0-W3.9-P1.27-LS6.0-BL footprint
+SOP-16_L10.0-W3.9-P1.27-LS6.0-BL footprint
+0
+16
+16
 A10 KiCad Libraries
 SOT-223_L6.5-W3.5-P2.30-LS7.0-BR
 SOT-223_L6.5-W3.5-P2.30-LS7.0-BR footprint
@@ -178,6 +213,13 @@ A10 KiCad Libraries
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
+0
+4
+4
+A10 KiCad Libraries
+SW-SMD_DSHP02TSGER
+Double dip switch
+SW-SMD_DSHP02TSGER footprint
 0
 4
 4
