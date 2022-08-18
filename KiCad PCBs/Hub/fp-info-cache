@@ -1,32 +1,4 @@
-20488041350945890
-A10 Eagle
-DC-044A
-
-
-0
-3
-3
-A10 Eagle
-DIL08
-<b>Dual In Line Package</b>
-
-0
-8
-8
-A10 Eagle
-GX12-7P
-
-
-0
-7
-7
-A10 Eagle
-RJ45-8P8C
-
-
-0
-8
-8
+20512964156195950
 A10 KiCad Libraries
 B2BXH2LFSN
 B2B-XH-2 (LF)(SN)-1
@@ -35,12 +7,33 @@ Connector
 2
 2
 A10 KiCad Libraries
+C0402
+C0402 footprint
+C0402 footprint
+0
+2
+2
+A10 KiCad Libraries
+C0805
+C0805 footprint
+C0805 footprint
+0
+2
+2
+A10 KiCad Libraries
+CONN-TH_WJ126V-5.0-2P
+CONN-TH_WJ126V-5.0-2P footprint
+CONN-TH_WJ126V-5.0-2P footprint
+0
+2
+2
+A10 KiCad Libraries
 DC-044A
 
 
 0
 3
-3
+2
 A10 KiCad Libraries
 DIL08
 <b>Dual In Line Package</b>
@@ -70,26 +63,68 @@ GX12-7P
 7
 7
 A10 KiCad Libraries
-Molex 43045-0200
-43045-02YY
+JST SHDR6W64P0X250_1X6_1740X575X700P
+B6B-XH-A(LF)(SN)
 Connector
+0
+6
+6
+A10 KiCad Libraries
+JST SHDR7W64P0X250_1X7_1990X575X700P
+B7B-XH-A(LF)(SN)
+Connector
+0
+7
+7
+A10 KiCad Libraries
+MICRO-USB-SMD_67503-1020
+MICRO-USB-SMD_67503-1020 footprint
+MICRO-USB-SMD_67503-1020 footprint
+0
+9
+9
+A10 KiCad Libraries
+Molex Micro-Fit 3.0 43045-0200
+CONN-TH_2P-P3.00_0430450200 footprint
+CONN-TH_2P-P3.00_0430450200 footprint
 0
 2
 2
 A10 KiCad Libraries
-Molex 43045-0400
-43045-04(00,01,02,10)
-Connector
+Molex Micro-Fit 3.0 43045-0400
+CONN-TH_0430450400 footprint
+CONN-TH_0430450400 footprint
 0
 4
 4
 A10 KiCad Libraries
-Molex 43045-0800
-43045-08(00,01,02,10)
-Connector
+Molex Micro-Fit 3.0 43045-0800
+CONN-TH_0430450800 footprint
+CONN-TH_0430450800 footprint
 0
 8
 8
+A10 KiCad Libraries
+Molex Micro-Fit 3.0 43045-0812
+CONN-TH_430450812 footprint
+CONN-TH_430450812 footprint
+0
+8
+8
+A10 KiCad Libraries
+OSC-SMD_4P-L3.2-W2.5-BL
+OSC-SMD_4P-L3.2-W2.5-BL footprint
+OSC-SMD_4P-L3.2-W2.5-BL footprint
+0
+4
+4
+A10 KiCad Libraries
+R0805
+R0805 footprint
+R0805 footprint
+0
+2
+2
 A10 KiCad Libraries
 RJ45-8P8C
 
@@ -98,19 +133,61 @@ RJ45-8P8C
 8
 8
 A10 KiCad Libraries
-SHDR6W64P0X250_1X6_1740X575X700P
-B6B-XH-A(LF)(SN)
-Connector
+RJ45-TH_B-1-4
+RJ45-TH_B-1-4 footprint
+RJ45-TH_B-1-4 footprint
 0
-6
-6
+52
+49
 A10 KiCad Libraries
-SHDR7W64P0X250_1X7_1990X575X700P
-B7B-XH-A(LF)(SN)
-Connector
+RJ45-TH_DS1128-09-S8B8S
+RJ45-TH_DS1128-09-S8B8S footprint
+RJ45-TH_DS1128-09-S8B8S footprint
 0
-7
-7
+14
+14
+A10 KiCad Libraries
+SOD-123_L2.7-W1.6-LS3.7-RD-1
+SOD-123_L2.7-W1.6-LS3.7-RD-1 footprint
+SOD-123_L2.7-W1.6-LS3.7-RD-1 footprint
+0
+2
+2
+A10 KiCad Libraries
+SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL
+SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL footprint
+SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL footprint
+0
+8
+8
+A10 KiCad Libraries
+SOT-223_L6.5-W3.5-P2.30-LS7.0-BR
+SOT-223_L6.5-W3.5-P2.30-LS7.0-BR footprint
+SOT-223_L6.5-W3.5-P2.30-LS7.0-BR footprint
+0
+4
+4
+A10 KiCad Libraries
+SSOP-28_L10.2-W5.3-P0.65-LS7.8-BL
+SSOP-28_L10.2-W5.3-P0.65-LS7.8-BL footprint
+SSOP-28_L10.2-W5.3-P0.65-LS7.8-BL footprint
+0
+28
+28
+A10 KiCad Libraries
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
+0
+4
+4
+A10 KiCad Libraries
+SW-SMD_DSHP02TSGER
+SW-SMD_DSHP02TSGER footprint
+SW-SMD_DSHP02TSGER footprint
+0
+4
+4
 A10 KiCad Libraries
 TO255P460X1020X2008-3P
 3-Pin TO-220
@@ -118,6 +195,13 @@ Integrated Circuit
 0
 3
 3
+A10 KiCad Libraries
+TQFP-32_L7.0-W7.0-P0.80-LS9.0-BL
+TQFP-32_L7.0-W7.0-P0.80-LS9.0-BL footprint
+TQFP-32_L7.0-W7.0-P0.80-LS9.0-BL footprint
+0
+32
+32
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

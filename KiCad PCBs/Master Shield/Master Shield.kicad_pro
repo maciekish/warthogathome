@@ -420,8 +420,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "../../../../../../Desktop/Master Shield.STEP",
+      "vrml": "../../../../../../Desktop/Master Shield.wrl"
     },
     "page_layout_descr_file": ""
   },
