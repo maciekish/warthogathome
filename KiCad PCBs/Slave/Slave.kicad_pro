@@ -351,10 +351,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "A10 KiCad Libraries",
-      "JLCPCB"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {

@@ -1,257 +1,264 @@
-20526251234970867
-A10 KiCad Libraries
+20448061018991938
+A10
 B2BXH2LFSN
 B2B-XH-2 (LF)(SN)-1
 Connector
 0
 2
 2
-A10 KiCad Libraries
+A10
 C0402
 C0402 footprint
 C0402 footprint
 0
 2
 2
-A10 KiCad Libraries
+A10
 C0805
 C0805 footprint
 C0805 footprint
 0
 2
 2
-A10 KiCad Libraries
+A10
 CONN-TH_WJ126V-5.0-2P
 CONN-TH_WJ126V-5.0-2P footprint
 CONN-TH_WJ126V-5.0-2P footprint
 0
 2
 2
-A10 KiCad Libraries
+A10
 DC-044A
 
 
 0
 3
 2
-A10 KiCad Libraries
+A10
 DIL08
 <b>Dual In Line Package</b>
 
 0
 8
 8
-A10 KiCad Libraries
+A10
 F1812
 F1812 footprint
 F1812 footprint
 0
 2
 2
-A10 KiCad Libraries
+A10
 FA14
 FA14
 Capacitor
 0
 2
 2
-A10 KiCad Libraries
+A10
 FUSE_BK-6013
 
 
 0
 4
 2
-A10 KiCad Libraries
+A10
 GX12-7P
 
 
 0
 7
 7
-A10 KiCad Libraries
+A10
 JST SHDR6W64P0X250_1X6_1740X575X700P
 B6B-XH-A(LF)(SN)
 Connector
 0
 6
 6
-A10 KiCad Libraries
+A10
 JST SHDR7W64P0X250_1X7_1990X575X700P
 B7B-XH-A(LF)(SN)
 Connector
 0
 7
 7
-A10 KiCad Libraries
+A10
 MICRO-USB-SMD_10118194-0001LF
 MICRO-USB-SMD_10118194-0001LF footprint
 MICRO-USB-SMD_10118194-0001LF footprint
 0
 9
 6
-A10 KiCad Libraries
+A10
 MICRO-USB-SMD_U254-051T-4BHJ25-F2S
 MICRO-USB-SMD_U254-051T-4BHJ25-F2S footprint
 MICRO-USB-SMD_U254-051T-4BHJ25-F2S footprint
 0
 9
 9
-A10 KiCad Libraries
+A10
 MINI-USB-SMD_67503-1020
 MINI-USB-SMD_67503-1020 footprint
 MINI-USB-SMD_67503-1020 footprint
 0
 9
 9
-A10 KiCad Libraries
+A10
 Molex Micro-Fit 3.0 43045-0200
 CONN-TH_2P-P3.00_0430450200 footprint
 CONN-TH_2P-P3.00_0430450200 footprint
 0
 2
 2
-A10 KiCad Libraries
+A10
 Molex Micro-Fit 3.0 43045-0400
 CONN-TH_0430450400 footprint
 CONN-TH_0430450400 footprint
 0
 4
 4
-A10 KiCad Libraries
+A10
 Molex Micro-Fit 3.0 43045-0800
 CONN-TH_0430450800 footprint
 CONN-TH_0430450800 footprint
 0
 8
 8
-A10 KiCad Libraries
+A10
 Molex Micro-Fit 3.0 43045-0812
 CONN-TH_430450812 footprint
 CONN-TH_430450812 footprint
 0
 8
 8
-A10 KiCad Libraries
+A10
 OSC-SMD_4P-L3.2-W2.5-BL
 OSC-SMD_4P-L3.2-W2.5-BL footprint
 OSC-SMD_4P-L3.2-W2.5-BL footprint
 0
 4
 4
-A10 KiCad Libraries
+A10
 QFN-28_L5.0-W5.0-P0.50-BL-EP3.2
 WQFN-28_L5.0-W5.0-P0.50-BL-EP3.2 footprint
 WQFN-28_L5.0-W5.0-P0.50-BL-EP3.2 footprint
 0
 29
 29
-A10 KiCad Libraries
+A10
 R0805
 R0805 footprint
 R0805 footprint
 0
 2
 2
-A10 KiCad Libraries
+A10
 RJ45-8P8C
 
 
 0
 8
 8
-A10 KiCad Libraries
+A10
 RJ45-TH_B-1-1
 RJ45-TH_B-1-1 footprint
 RJ45-TH_B-1-1 footprint
 0
 14
 13
-A10 KiCad Libraries
+A10
 RJ45-TH_B-1-4
 RJ45-TH_B-1-4 footprint
 RJ45-TH_B-1-4 footprint
 0
 52
 49
-A10 KiCad Libraries
+A10
 RJ45-TH_DS1128-09-S8B8S
 RJ45-TH_DS1128-09-S8B8S footprint
 RJ45-TH_DS1128-09-S8B8S footprint
 0
 14
 14
-A10 KiCad Libraries
+A10
 SOD-123F_L2.8-W1.8-LS3.7-RD
 SOD-123F_L2.8-W1.8-LS3.7-RD footprint
 SOD-123F_L2.8-W1.8-LS3.7-RD footprint
 0
 2
 2
-A10 KiCad Libraries
+A10
 SOD-123_L2.7-W1.6-LS3.7-RD-1
 SOD-123_L2.7-W1.6-LS3.7-RD-1 footprint
 SOD-123_L2.7-W1.6-LS3.7-RD-1 footprint
 0
 2
 2
-A10 KiCad Libraries
+A10
 SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL
 SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL footprint
 SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL footprint
 0
 8
 8
-A10 KiCad Libraries
+A10
 SOP-16_L10.0-W3.9-P1.27-LS6.0-BL
 SOP-16_L10.0-W3.9-P1.27-LS6.0-BL footprint
 SOP-16_L10.0-W3.9-P1.27-LS6.0-BL footprint
 0
 16
 16
-A10 KiCad Libraries
+A10
 SOT-223_L6.5-W3.5-P2.30-LS7.0-BR
 SOT-223_L6.5-W3.5-P2.30-LS7.0-BR footprint
 SOT-223_L6.5-W3.5-P2.30-LS7.0-BR footprint
 0
 4
 4
-A10 KiCad Libraries
+A10
 SSOP-28_L10.2-W5.3-P0.65-LS7.8-BL
 SSOP-28_L10.2-W5.3-P0.65-LS7.8-BL footprint
 SSOP-28_L10.2-W5.3-P0.65-LS7.8-BL footprint
 0
 28
 28
-A10 KiCad Libraries
+A10
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
 0
 4
 4
-A10 KiCad Libraries
+A10
+SW-SMD_8P-L6.7-W5.4-P1.27-LS8.4
+SW-SMD_8P-L6.7-W5.4-P1.27-LS8.4 footprint
+SW-SMD_8P-L6.7-W5.4-P1.27-LS8.4 footprint
+0
+8
+8
+A10
 SW-SMD_DSHP02TSGER
 Double dip switch
 SW-SMD_DSHP02TSGER footprint
 0
 4
 4
-A10 KiCad Libraries
+A10
 SW-SMD_DSHP03TS-S
 SW-SMD_DSHP03TS-S footprint
 SW-SMD_DSHP03TS-S footprint
 0
 6
 6
-A10 KiCad Libraries
+A10
 TO255P460X1020X2008-3P
 3-Pin TO-220
 Integrated Circuit
 0
 3
 3
-A10 KiCad Libraries
+A10
 TQFP-32_L7.0-W7.0-P0.80-LS9.0-BL
 TQFP-32_L7.0-W7.0-P0.80-LS9.0-BL footprint
 TQFP-32_L7.0-W7.0-P0.80-LS9.0-BL footprint
@@ -86281,339 +86288,3 @@ varistor SIOV
 0
 2
 2
-w_pth_circuits
-dcdc_dil
-DC/DC converter, DIP package
-
-0
-6
-6
-w_pth_circuits
-dcdc_dil8
-DC/DC converter, DIP8 package
-
-0
-4
-4
-w_pth_circuits
-dcdc_sil
-DC/DC converter, SIP package
-
-0
-5
-5
-w_pth_circuits
-dcdc_sil4
-DC/DC converter, SIP4 package
-
-0
-4
-4
-w_pth_circuits
-dcdc_sil7(2+4)
-DC/DC converter, SIP7 package (2+4 pins)
-
-0
-6
-6
-w_pth_circuits
-dil_4-300
-IC, DIL4 x 0,3"
-DIL
-0
-4
-4
-w_pth_circuits
-dil_6-300
-IC, DIL6 x 0,3"
-DIL
-0
-6
-6
-w_pth_circuits
-dil_6-300_socket
-IC, DIL6 x 0,3", with socket
-DIL
-0
-6
-6
-w_pth_circuits
-dil_8-300
-IC, DIL8 x 0,3"
-DIL
-0
-8
-8
-w_pth_circuits
-dil_8-300_socket
-IC, DIL8 x 0,3", with socket
-DIL
-0
-8
-8
-w_pth_circuits
-dil_8-400
-IC, DIL8 x 0,4"
-DIL
-0
-8
-8
-w_pth_circuits
-dil_8-400_socket
-IC, DIL8 x 0,4", with socket
-DIL
-0
-8
-8
-w_pth_circuits
-dil_14-300
-IC, DIL14 x 0,3"
-DIL
-0
-14
-14
-w_pth_circuits
-dil_14-300_socket
-IC, DIL14 x 0,3", with socket
-DIL
-0
-14
-14
-w_pth_circuits
-dil_16-300
-IC, DIL16 x 0,3"
-DIL
-0
-16
-16
-w_pth_circuits
-dil_16-300_socket
-IC, DIL16 x 0,3", with socket
-DIL
-0
-16
-16
-w_pth_circuits
-dil_18-300
-IC, DIL18 x 0,3"
-DIL
-0
-18
-18
-w_pth_circuits
-dil_18-300_socket
-IC, DIL18 x 0,3", with socket
-DIL
-0
-18
-18
-w_pth_circuits
-dil_20-300
-IC, DIL20 x 0,3"
-DIL
-0
-20
-20
-w_pth_circuits
-dil_20-300_socket
-IC, DIL20 x 0,3", with socket
-DIL
-0
-20
-20
-w_pth_circuits
-dil_22-300
-IC, DIL22 x 0,3"
-DIL
-0
-22
-22
-w_pth_circuits
-dil_22-300_socket
-IC, DIL22 x 0,3", with socket
-DIL
-0
-22
-22
-w_pth_circuits
-dil_24-300
-IC, DIL24 x 0,3"
-DIL
-0
-24
-24
-w_pth_circuits
-dil_24-300_socket
-IC, DIL24 x 0,3", with socket
-DIL
-0
-24
-24
-w_pth_circuits
-dil_24-600
-IC, DIL24 x 0,6"
-DIL
-0
-24
-24
-w_pth_circuits
-dil_24-600_socket
-IC, DIL24 x 0,6", with socket
-DIL
-0
-24
-24
-w_pth_circuits
-dil_28-300
-IC, DIL28 x 0,3"
-DIL
-0
-28
-28
-w_pth_circuits
-dil_28-300_socket
-IC, DIL28 x 0,3", with socket
-DIL
-0
-28
-28
-w_pth_circuits
-dil_28-600
-IC, DIL28 x 0,6"
-DIL
-0
-28
-28
-w_pth_circuits
-dil_28-600_socket
-IC, DIL28 x 0,6", with socket
-DIL
-0
-28
-28
-w_pth_circuits
-dil_32-600
-IC, DIL32 x 0,6"
-DIL
-0
-32
-32
-w_pth_circuits
-dil_32-600_socket
-IC, DIL32 x 0,6", with socket
-DIL
-0
-32
-32
-w_pth_circuits
-dil_40-600
-IC, DIL40 x 0,6"
-DIL
-0
-40
-40
-w_pth_circuits
-dil_40-600_socket
-IC, DIL40 x 0,6", with socket
-DIL
-0
-40
-40
-w_pth_circuits
-dil_48-600
-IC, DIL48 x 0,6"
-DIL
-0
-48
-48
-w_pth_circuits
-dil_48-600_socket
-IC, DIL48 x 0,6", with socket
-DIL
-0
-48
-48
-w_pth_circuits
-qil_64-600
-IC, QIL64 x 0,6"
-QIL
-0
-64
-64
-w_pth_circuits
-sdil_28-400
-IC, Shrink DIL28 x 0,4"
-DIL
-0
-28
-28
-w_pth_circuits
-sdil_28-400_socket
-IC, Shrink DIL28 x 0,4", with socket
-DIL
-0
-28
-28
-w_pth_circuits
-sdil_32-400
-IC, Shrink DIL32 x 0,4"
-DIL
-0
-32
-32
-w_pth_circuits
-sdil_32-400_socket
-IC, Shrink DIL32 x 0,4", with socket
-DIL
-0
-32
-32
-w_pth_circuits
-sdil_42-600
-IC, Shrink DIL42 x 0,6"
-DIL
-0
-42
-42
-w_pth_circuits
-sdil_42-600_socket
-IC, Shrink DIL42 x 0,6", with socket
-DIL
-0
-42
-42
-w_pth_circuits
-sdil_52-600
-IC, Shrink DIL52 x 0,6"
-DIL
-0
-52
-52
-w_pth_circuits
-sdil_52-600_socket
-IC, Shrink DIL52 x 0,6", with socket
-DIL
-0
-52
-52
-w_pth_circuits
-sdil_64-750
-IC, Shrink DIL64 x 0,75"
-DIL
-0
-64
-64
-w_pth_circuits
-sdil_64-750_socket
-IC, Shrink DIL64 x 0,75", with socket
-DIL
-0
-64
-64
-w_pth_circuits
-spm26
-Fairchild SPM26 DIL
-SPM26
-0
-26
-26
