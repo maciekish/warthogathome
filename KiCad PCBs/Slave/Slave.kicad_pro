@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.15239999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -123,6 +123,7 @@
         0.1524,
         0.3048,
         0.4064,
+        0.6096,
         0.8128,
         3.556
       ],
@@ -367,13 +368,13 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.635,
+        "microvia_diameter": 0.4572,
         "microvia_drill": 0.254,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3048,
-        "via_diameter": 0.635,
+        "track_width": 0.2032,
+        "via_diameter": 0.4572,
         "via_drill": 0.254,
         "wire_width": 12.0
       },
