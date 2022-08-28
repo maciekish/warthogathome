@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.900025,
-          "height": 1.5,
-          "width": 1.5
+          "drill": 1.300025,
+          "height": 2.159,
+          "width": 2.159
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.4064
+          "min_clearance": 0.6095999999999999
         }
       },
       "diff_pair_dimensions": [
@@ -394,7 +394,7 @@
         "microvia_drill": 0.762,
         "name": "High Current",
         "nets": [
-          "12V",
+          "+12V",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
