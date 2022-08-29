@@ -621,7 +621,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x04_Top_Bottom") (at 130.81 83.82 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 0ca59e3c-3765-4cde-a7a4-32806e754c26)
     (property "Reference" "J1" (id 0) (at 132.08 77.47 0))
     (property "Value" "Conn_02x04_Top_Bottom" (id 1) (at 132.08 77.47 0)
@@ -866,7 +866,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x04_Top_Bottom") (at 130.81 102.87 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid d5bc5532-2db3-4303-85f4-6e8526a93f32)
     (property "Reference" "J2" (id 0) (at 132.08 96.52 0))
     (property "Value" "Conn_02x04_Top_Bottom" (id 1) (at 132.08 96.52 0)
