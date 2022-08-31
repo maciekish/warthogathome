@@ -7,7 +7,8 @@
 #include "DcsBios.h"
 
 #define U8G2_16BIT
-U8G2_SSD1322_NHD_256X64_F_4W_SW_SPI u8g2(U8G2_R0, /* clock=*/ 13, /* data=*/ 11, /* cs=*/ 10, /* dc=*/ 9, /* reset=*/ 8);
+// U8G2_SSD1322_NHD_256X64_F_4W_SW_SPI u8g2(U8G2_R0, /* clock=*/ 13, /* data=*/ 11, /* cs=*/ 10, /* dc=*/ 9, /* reset=*/ 8); // Software SPI with full FB on Arduino Mega.
+U8G2_SSD1322_NHD_256X64_2_4W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 10, /* dc=*/ 9, /* reset=*/ 8); // Hardware SPI on Arduino Nano.
 
 // Offsets for slightly randomizing text position.
 int x_offset = 0;
@@ -20,7 +21,7 @@ char* cmsp2 = "XXXXXXXXXXXXXXXXXXX";
 unsigned int contrast = 1;
 
 void setup() {
-  // Slightly randomize position on every boot to avoid burning out the exact same pixels. Afterall, OLEDs are "a consumable" :(
+  // Slightly randomize position on every boot to avoid burning out the exact same pixels. Afterall, OLEDs are "consumable".
   randomSeed(analogRead(0));
   x_offset = random(3);
   y_offset = random(3);
