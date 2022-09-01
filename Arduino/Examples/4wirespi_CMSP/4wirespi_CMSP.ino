@@ -8,7 +8,8 @@
 
 #define U8G2_16BIT
 // U8G2_SSD1322_NHD_256X64_F_4W_SW_SPI u8g2(U8G2_R0, /* clock=*/ 13, /* data=*/ 11, /* cs=*/ 10, /* dc=*/ 9, /* reset=*/ 8); // Software SPI with full FB on Arduino Mega.
-U8G2_SSD1322_NHD_256X64_2_4W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 10, /* dc=*/ 9, /* reset=*/ 8); // Hardware SPI on Arduino Nano.
+// U8G2_SSD1322_NHD_256X64_2_4W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 10, /* dc=*/ 9, /* reset=*/ 8); // Hardware SPI on Arduino Nano.
+U8G2_SSD1322_NHD_256X64_2_4W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 53, /* dc=*/ 49, /* reset=*/ 48); // Hardware SPI on Arduino Mega.
 
 // Offsets for slightly randomizing text position.
 int x_offset = 0;
