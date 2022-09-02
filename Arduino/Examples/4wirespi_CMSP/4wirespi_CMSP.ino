@@ -18,7 +18,7 @@ int y_offset = 0;
 // The 2 lines of text to display
 char* cmsp1 = "--- --- --- ---    "; // 002 000 1.00 01
 char* cmsp2 = "---- ---- ---- ----"; // CHAF FLAR INTV CYCL
-/*char* cmsp1 = "002 000 1.00 01    ";
+/*char* cmsp1 = "002 000 1.00 01    "; // Demo
 char* cmsp2 = "CHAF FLAR INTV CYCL";*/
 
 unsigned int contrast = 8;
