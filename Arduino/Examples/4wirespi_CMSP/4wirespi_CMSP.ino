@@ -16,15 +16,18 @@ int x_offset = 0;
 int y_offset = 0;
 
 // The 2 lines of text to display
-char* cmsp1 = "XXXXXXXXXXXXXXXXXXX";
-char* cmsp2 = "XXXXXXXXXXXXXXXXXXX";
+char* cmsp1 = "002 000 1.00 01";
+char* cmsp2 = "CHAF FLAR INTV CYCL";
 
 unsigned int contrast = 1;
+
+#include "CMSP_Large_font.h"
+#include "CMSP_Small_font.h"
 
 void setup() {
   // Slightly randomize position on every boot to avoid burning out the exact same pixels. Afterall, OLEDs are "consumable".
   randomSeed(analogRead(0));
-  x_offset = random(3);
+  x_offset = random(1);
   y_offset = random(3);
   
   u8g2.begin();
@@ -38,10 +41,10 @@ void loop() {
   if (contrast > 0) { // My OLED cannot dim a lot, so if brightness is 0, just blank the display.
     u8g2.firstPage();
     do {
-      u8g2.setFont(u8g2_font_chargen_92_te); // Alternative fonts: u8g2_font_profont29_tf, u8g2_font_inb19_mf
-      u8g2.drawStr(0 + x_offset, 24 + y_offset, cmsp1);
-      u8g2.setFont(u8g2_font_chargen_92_te);
-      u8g2.drawStr(0 + x_offset, 48 + y_offset, cmsp2);
+      u8g2.setFont(CMSP_Large_font); // Alternative fonts: u8g2_font_profont29_tf, u8g2_font_inb19_mf
+      u8g2.drawStr(0 + x_offset, 20 + y_offset, cmsp1);
+      u8g2.setFont(CMSP_Small_font);
+      u8g2.drawStr(6 + x_offset, 48 + y_offset, cmsp2);
     } while ( u8g2.nextPage() );
   } else {
     u8g2.clearDisplay();
