@@ -36,10 +36,10 @@ void setup() {
 
   tft.fillScreen(TFT_BLACK);
   tft.setTextColor(TFT_GREEN, TFT_BLACK);
-  tft.setFreeFont(&CDU); //GLCD
+  tft.setFreeFont(&CDU);
   tft.setTextSize(3);
   tft.setTextWrap(false);
-  
+
   drawCDULine(1);
   drawCDULine(2);
   drawCDULine(3);
@@ -77,6 +77,7 @@ void drawCDULine(int line) {
   tft.fillRect(x_offset, (y_coordinate_for_line(line) - text_height) + y_offset, 462 - x_offset, text_height, TFT_BLACK);
   tft.setCursor(x_offset, y_coordinate_for_line(line) + y_offset);
   tft.print(lines[line - 1]);
+  //tft.drawString(lines[line - 1], x_offset, y_coordinate_for_line(line) + y_offset, 1);
 }
 
 int y_coordinate_for_line(int line) {

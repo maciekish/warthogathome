@@ -21,8 +21,8 @@
 //
 // ##################################################################################
 
-#define HX8357_TFTWIDTH  320
-#define HX8357_TFTHEIGHT 480
+#define HX8357_TFTWIDTH  480
+#define HX8357_TFTHEIGHT 320
 
 // ##################################################################################
 //
@@ -53,8 +53,8 @@
 //
 // ##################################################################################
 
-#define FF_HEIGHT 'A'  // '/' character used to set free font height above the baseline
-#define FF_BOTTOM 'Z'  // 'y' character used to set free font height below baseline
+#define FF_HEIGHT '/'  // '/' character used to set free font height above the baseline
+#define FF_BOTTOM 'y'  // 'y' character used to set free font height below baseline
 
 
 // ##################################################################################
