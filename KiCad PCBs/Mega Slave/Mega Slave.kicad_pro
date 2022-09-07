@@ -33,9 +33,9 @@
         "other_text_thickness": 0.1016,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.3,
-          "width": 1.475
+          "drill": 0.914402,
+          "height": 1.498603,
+          "width": 1.498603
         },
         "silk_line_width": 0.127,
         "silk_text_italic": false,
@@ -55,7 +55,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|100838001|89661999|8289ba13-a797-47a9-9134-322c20d678cf|6392e4fe-bacf-4f77-81a9-08bc898b7976",
+        "clearance|101014532|89838530|bb653f14-fd46-4594-b831-cec3712ce00c|6392e4fe-bacf-4f77-81a9-08bc898b7976",
+        "clearance|101648263|90472261|bb653f14-fd46-4594-b831-cec3712ce00c|eb58e507-d763-42af-a9f7-a8525c81a275",
+        "clearance|101854003|90678001|179e199c-d719-46d6-8254-30fd1aa70870|eb58e507-d763-42af-a9f7-a8525c81a275",
+        "clearance|114149962|91710002|e0f7ce11-6f3e-40bb-90ce-2a05f262ade8|0adaa2a7-4155-4dff-9408-2218cf650567",
+        "courtyards_overlap|135734970|100959961|93b1e204-3dd2-451f-801d-231b3a11cdfd|d4d31986-ba9b-4632-bdfd-1bded028ccc5"
+      ],
       "meta": {
         "version": 2
       },
