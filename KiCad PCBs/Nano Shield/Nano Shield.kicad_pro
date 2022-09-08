@@ -22,26 +22,26 @@
         },
         "fab_line_width": 0.127,
         "fab_text_italic": false,
-        "fab_text_size_h": 0.5588,
-        "fab_text_size_v": 0.5588,
-        "fab_text_thickness": 0.1016,
+        "fab_text_size_h": 1.2191999999999998,
+        "fab_text_size_v": 1.2191999999999998,
+        "fab_text_thickness": 0.15239999999999998,
         "fab_text_upright": false,
         "other_line_width": 0.15239999999999998,
         "other_text_italic": false,
-        "other_text_size_h": 0.5588,
-        "other_text_size_v": 0.5588,
-        "other_text_thickness": 0.1016,
+        "other_text_size_h": 1.2191999999999998,
+        "other_text_size_v": 1.2191999999999998,
+        "other_text_thickness": 0.15239999999999998,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.540005,
+          "width": 0.790094
         },
         "silk_line_width": 0.07619999999999999,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.8128,
-        "silk_text_size_v": 0.8128,
-        "silk_text_thickness": 0.1016,
+        "silk_text_size_h": 1.2191999999999998,
+        "silk_text_size_v": 1.2191999999999998,
+        "silk_text_thickness": 0.15239999999999998,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|206501999|101091999|6b7b1f54-0fa7-4e75-95bc-a2e67eca295e|89296f07-6f15-4929-95c6-6ac0dbbe9c48",
+        "clearance|206644239|101234239|a069903c-39d5-4c64-b834-3ec44f245fbe|89296f07-6f15-4929-95c6-6ac0dbbe9c48"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -64,7 +67,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
