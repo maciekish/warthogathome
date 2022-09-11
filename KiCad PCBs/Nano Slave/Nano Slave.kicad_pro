@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.905,
-          "width": 1.905
+          "drill": 1.300025,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.127,
         "silk_text_italic": false,
@@ -56,32 +56,8 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|107442001|77799241|646660cd-5914-4e41-bae3-7559452513c8|7579ae94-528c-466a-8597-be7a1ab823e1",
-        "courtyards_overlap|110589948|121158001|b33eeaf8-f043-475f-a025-4caf89f27553|bd9f1bd0-297f-43e1-b754-6dc39ece21db",
-        "courtyards_overlap|115884363|88392000|62d76738-bd8a-457b-a084-7b276f2b4242|a4c968d0-c087-43c0-833e-e1d1c1e9d3cc",
-        "courtyards_overlap|116265999|88392000|a4c968d0-c087-43c0-833e-e1d1c1e9d3cc|62d76738-bd8a-457b-a084-7b276f2b4242",
-        "courtyards_overlap|123672601|123090052|78cda603-afc0-40ba-ba90-01837e9009b2|826deab9-a4cf-43c5-9b6a-8f940a67c2f0",
-        "courtyards_overlap|125542001|95625501|7a95642d-b7ad-4bf6-b645-e43867facf6c|34b2fb3f-145c-4622-96c5-e872a200815e",
-        "courtyards_overlap|127000001|85090001|5bd5ad98-d81f-4230-9275-32ed98443343|b5edf68d-983f-4772-90ec-d96c4bc635de",
-        "courtyards_overlap|130987801|123090052|78cda603-afc0-40ba-ba90-01837e9009b2|826deab9-a4cf-43c5-9b6a-8f940a67c2f0",
-        "courtyards_overlap|133680201|123090052|05b4f07b-bf6d-4827-87f1-b8107960a921|826deab9-a4cf-43c5-9b6a-8f940a67c2f0",
-        "courtyards_overlap|134239001|85090001|5bd5ad98-d81f-4230-9275-32ed98443343|b5edf68d-983f-4772-90ec-d96c4bc635de",
-        "courtyards_overlap|135385001|90489601|d011f88a-3e8c-45d3-ab42-1045ced5dbe0|d9615ac0-c603-4783-baf1-17ab117d372f",
-        "courtyards_overlap|136283699|101980998|2bca30fe-ddb2-4b16-8aa3-2137a57984c9|5ff3cea8-1ec0-48f8-b4fe-975a167da093",
-        "courtyards_overlap|140995401|123090052|05b4f07b-bf6d-4827-87f1-b8107960a921|826deab9-a4cf-43c5-9b6a-8f940a67c2f0",
-        "courtyards_overlap|142364670|104140000|4a42760f-8471-406d-bb98-0ac9d203cd73|cd7197cb-c112-4945-8c23-683179f6289e",
-        "courtyards_overlap|143687801|123090052|05b4f07b-bf6d-4827-87f1-b8107960a921|a29e9661-d983-43a7-bd12-94ea9b96b002",
-        "courtyards_overlap|151003001|123090052|05b4f07b-bf6d-4827-87f1-b8107960a921|a29e9661-d983-43a7-bd12-94ea9b96b002",
-        "courtyards_overlap|153695401|123090052|0ac97354-d71c-4d8b-9182-9e9a2d8ebb00|a29e9661-d983-43a7-bd12-94ea9b96b002",
-        "courtyards_overlap|153695401|75029950|7fdb5c80-2ee9-4ea4-93d2-218037a5a8bb|e0b6ba8f-6cf1-4721-9ebd-a38b9dd07b83",
-        "courtyards_overlap|161010601|123090052|0ac97354-d71c-4d8b-9182-9e9a2d8ebb00|a29e9661-d983-43a7-bd12-94ea9b96b002",
-        "courtyards_overlap|163703001|123090052|0ac97354-d71c-4d8b-9182-9e9a2d8ebb00|7974dd4c-211a-4cee-8601-e98b687240ea",
-        "courtyards_overlap|163703001|75029950|e0b6ba8f-6cf1-4721-9ebd-a38b9dd07b83|e6c8b052-32d6-4224-819d-d3becc59d6c0",
-        "courtyards_overlap|166160001|98330001|23ebde62-b2ac-4cbc-8a8a-a1cfdce6b085|67084041-b759-4be9-a5c2-70fb32b963d0",
-        "courtyards_overlap|171018201|123090052|0ac97354-d71c-4d8b-9182-9e9a2d8ebb00|7974dd4c-211a-4cee-8601-e98b687240ea",
-        "courtyards_overlap|171355001|116630001|a7df085a-432e-432f-9ad8-4a34bb036225|f81105ec-1ee0-4818-b330-17309b2d63b4",
-        "courtyards_overlap|176972000|123090052|7974dd4c-211a-4cee-8601-e98b687240ea|a7df085a-432e-432f-9ad8-4a34bb036225",
-        "courtyards_overlap|178529999|123090052|7974dd4c-211a-4cee-8601-e98b687240ea|f81105ec-1ee0-4818-b330-17309b2d63b4"
+        "clearance|109385427|96989572|5ed3398b-3a11-4910-a4f9-a7f75504c50b|9546c4d7-ac0f-4412-a589-6687383f859b",
+        "clearance|138975085|107315000|f6e2b64a-ea48-475f-8087-d77ef1220e51|33333804-4217-4b75-918b-64f61c9c6b06"
       ],
       "meta": {
         "version": 2
@@ -90,7 +66,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
