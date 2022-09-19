@@ -47,3 +47,4 @@ _autosave-*
 fp-info-cache
 *.net
 KiCad PCBs/*/*-backups/
+*-backups/
