@@ -36,6 +36,10 @@ void setup() {
   randomSeed(analogRead(0));
   x_offset = random(4);
   y_offset = random(6);
+
+  // Backlight Control via pin 46, requires a hardware mod to the TFT shield.
+  pinMode(46, OUTPUT);
+  analogWrite(46, 128);
   
   tft.begin();
   tft.setRotation(1);
@@ -153,3 +157,24 @@ void onCDULine9Change (char* newValue) {
   setCDUText(9, newValue);
 }
 DcsBios::StringBuffer<24> cduLine9Buffer(0x1298, onCDULine9Change);
+
+// Backlight Control via pin 46, requires a hardware mod to the TFT shield.
+unsigned int brightness = 255; // The CDU in DCS starts at max brightness, using the same initial value help with synchronization.
+void onCduBrtChange(unsigned int newValue) {
+    if (newValue == 0) {
+      if (brightness > 25) {
+        brightness -= 25;
+      } else {
+        brightness = 0;
+      }
+    } else if (newValue == 2) {
+      if (brightness < 230) {
+        brightness += 25;
+      } else {
+        brightness = 255;
+      }
+    }
+
+    analogWrite(46, brightness);
+}
+DcsBios::IntegerBuffer cduBrtBuffer(0x10fa, 0x0003, 0, onCduBrtChange);
