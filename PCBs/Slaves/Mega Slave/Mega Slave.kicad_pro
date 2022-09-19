@@ -61,7 +61,7 @@
         "clearance|101648263|90472261|bb653f14-fd46-4594-b831-cec3712ce00c|eb58e507-d763-42af-a9f7-a8525c81a275",
         "clearance|101854003|90678001|179e199c-d719-46d6-8254-30fd1aa70870|eb58e507-d763-42af-a9f7-a8525c81a275",
         "clearance|114149962|91710002|e0f7ce11-6f3e-40bb-90ce-2a05f262ade8|0adaa2a7-4155-4dff-9408-2218cf650567",
-        "courtyards_overlap|135734970|100959961|93b1e204-3dd2-451f-801d-231b3a11cdfd|d4d31986-ba9b-4632-bdfd-1bded028ccc5"
+        "clearance|115844868|87358671|e0f7ce11-6f3e-40bb-90ce-2a05f262ade8|0adaa2a7-4155-4dff-9408-2218cf650567"
       ],
       "meta": {
         "version": 2
@@ -70,7 +70,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
