@@ -14,7 +14,7 @@ DcsBios::Switch2Pos eppBatteryPwr("EPP_BATTERY_PWR", 12);
 
 // Backlight
 void onInternalConsoleLightsChange(unsigned int newValue) {
-    analogWrite(5, newValue / 256);
+    analogWrite(5, newValue / (256 * 4)); // Use 1/4 of max power, it gets very bright anyway.
 }
 DcsBios::IntegerBuffer internalConsoleLightsBuffer(0x1306, 0xffff, 0, onInternalConsoleLightsChange);
 
