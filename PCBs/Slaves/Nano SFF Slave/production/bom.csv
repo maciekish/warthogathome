@@ -1,7 +1,7 @@
 Designator,Footprint,Quantity,Value,LCSC Part #
-R4,R_0805_2012Metric,1,1K,C17513
 R7,R_0805_2012Metric,1,1.8K,C17398
 J3,CONN-TH_XY308-2.54-2P,1,Screw_Terminal_01x02,C8404
+R4,R_0805_2012Metric,1,1K,C17513
 J10,PinHeader_2x03_P2.54mm_Vertical,1,AVR-ISP-6,C492420
 J5,CONN-TH_XY308-2.54-2P,1,Screw_Terminal_01x02,C8404
 H4,MountingHole_3.2mm_M3,1,MountingHole,
