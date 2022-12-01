@@ -416,8 +416,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "../../../../../../Desktop/Hub.step",
+      "vrml": "../../../../../../Desktop/Hub.wrl"
     },
     "page_layout_descr_file": ""
   },
