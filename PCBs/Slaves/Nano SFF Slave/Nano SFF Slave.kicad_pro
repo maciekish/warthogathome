@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.045009,
-          "width": 0.588011
+          "height": 1.75,
+          "width": 1.25
         },
         "silk_line_width": 0.127,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.30479999999999996
         }
       },
       "diff_pair_dimensions": [
@@ -395,10 +395,10 @@
         "name": "High Current",
         "nets": [
           "+12V",
-          "/ULOAD",
+          "12V_Fused",
+          "12V_Ramped",
           "AUX_GND",
-          "BACKLIGHT_GND",
-          "LOAD"
+          "BACKLIGHT_GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
