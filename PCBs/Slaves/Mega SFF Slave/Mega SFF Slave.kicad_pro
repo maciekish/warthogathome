@@ -401,6 +401,8 @@
         "name": "High Current",
         "nets": [
           "+12V",
+          "12V_Fused",
+          "12V_Ramped",
           "AUX_GND",
           "BACKLIGHT_GND"
         ],
