@@ -3,35 +3,47 @@
 //#define DCSBIOS_IRQ_SERIAL // For direct USB Testing. Only #define euther TXENABLE_PIN or DCSBIOS_IRQ_SERIAL, never both.
 
 #include "DcsBios.h"
+#include <Servo.h>
 
 // Switches
-/*DcsBios::Switch2Pos eppApuGenPwr("EPP_APU_GEN_PWR", 6);
-DcsBios::Switch3Pos eppInverter("EPP_INVERTER", 8, 7);
-DcsBios::Switch2Pos eppEmerFlood("EPP_EMER_FLOOD", 9);
-DcsBios::Switch2Pos eppAcGenPwrL("EPP_AC_GEN_PWR_L", 10);
-DcsBios::Switch2Pos eppAcGenPwrR("EPP_AC_GEN_PWR_R", 11);
-DcsBios::Switch2Pos eppBatteryPwr("EPP_BATTERY_PWR", 12);*/
+DcsBios::Switch2Pos oxyDiluter("OXY_DILUTER", 10);
+DcsBios::Switch3Pos oxyEmergency("OXY_EMERGENCY", 8, 7);
+DcsBios::Switch2Pos oxySupply("OXY_SUPPLY", 11);
+
+// Oxygen Pressure Servo
+Servo oxyPressure;
+
+void onOxySupplyChange(unsigned int newValue) {
+  int val = map(newValue, 0, 32684, 180, 0);
+  oxyPressure.write(val);
+}
+DcsBios::IntegerBuffer oxySupplyBuffer(0x112a, 0x0400, 10, onOxySupplyChange);
 
 // Oxygen Flow Indicator
+unsigned int internalFltInstLights = 255;
+
 void onOxyFlowChange(unsigned int newValue) {
-    digitalWrite(3, newValue);
+    // analogWrite(3, newValue * (internalFltInstLights / 256)); // Controlled by FLT INST
+    analogWrite(3, newValue * 128); // Controlled by FLT INST
 }
 DcsBios::IntegerBuffer oxyFlowBuffer(0x112a, 0x0800, 11, onOxyFlowChange);
 
 // Backlight
 void onInternalConsoleLightsChange(unsigned int newValue) {
-    analogWrite(5, newValue / (256 * 4)); // Use 1/4 of max power, it gets very bright anyway.
+    analogWrite(5, newValue / (256 * 6)); // Use 1/6 of max power, it gets very bright anyway.
 }
 DcsBios::IntegerBuffer internalConsoleLightsBuffer(0x1306, 0xffff, 0, onInternalConsoleLightsChange);
 
 // AUX Light
 void onInternalFltInstLightsChange(unsigned int newValue) {
+    internalFltInstLights = newValue;
     analogWrite(6, newValue / (256 * 4)); // Use 1/4 of max power, it gets very bright anyway.
 }
 DcsBios::IntegerBuffer internalFltInstLightsBuffer(0x130a, 0xffff, 0, onInternalFltInstLightsChange);
 
 void setup() {
   pinMode(3, OUTPUT); // Oxygen Flow Indicator
+  oxyPressure.attach(9); // Oxygen Pressure Servo
   
   DcsBios::setup();
 }
