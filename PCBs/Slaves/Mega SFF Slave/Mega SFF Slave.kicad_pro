@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15239999999999998,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.127,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15239999999999998
+          "min_clearance": 0.30479999999999996
         }
       },
       "diff_pair_dimensions": [
@@ -60,8 +60,10 @@
         "clearance|101014532|89838530|bb653f14-fd46-4594-b831-cec3712ce00c|6392e4fe-bacf-4f77-81a9-08bc898b7976",
         "clearance|101648263|90472261|bb653f14-fd46-4594-b831-cec3712ce00c|eb58e507-d763-42af-a9f7-a8525c81a275",
         "clearance|101854003|90678001|179e199c-d719-46d6-8254-30fd1aa70870|eb58e507-d763-42af-a9f7-a8525c81a275",
+        "clearance|106681039|94378290|0717180a-f3cc-4b23-8c73-f88be17365d7|05d64669-a27c-4314-8dba-7df0e0710378",
         "clearance|114149962|91710002|e0f7ce11-6f3e-40bb-90ce-2a05f262ade8|0adaa2a7-4155-4dff-9408-2218cf650567",
-        "clearance|115844868|87358671|e0f7ce11-6f3e-40bb-90ce-2a05f262ade8|0adaa2a7-4155-4dff-9408-2218cf650567"
+        "clearance|115844868|87358671|e0f7ce11-6f3e-40bb-90ce-2a05f262ade8|0adaa2a7-4155-4dff-9408-2218cf650567",
+        "clearance|97501064|87724666|f5667e03-6cef-47bc-a90c-afaf0b169a0e|a9023be2-dbfd-402c-b187-4f60d62767fd"
       ],
       "meta": {
         "version": 2
@@ -391,7 +393,7 @@
       },
       {
         "bus_width": 32.0,
-        "clearance": 0.4064,
+        "clearance": 0.3048,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -401,6 +403,8 @@
         "name": "High Current",
         "nets": [
           "+12V",
+          "12V_Fused",
+          "12V_Ramped",
           "AUX_GND",
           "BACKLIGHT_GND"
         ],
