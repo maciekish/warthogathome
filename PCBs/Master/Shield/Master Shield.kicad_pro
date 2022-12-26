@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.540005,
-          "width": 0.790094
+          "drill": 1.300025,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -354,10 +354,7 @@
       "A10 KiCad Libraries",
       "JLCPCB"
     ],
-    "pinned_symbol_libs": [
-      "A10",
-      "JLCPCB"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "Master Shield.kicad_pro",
