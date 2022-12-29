@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "DCS-BIOS Nano SFF Slave")
-    (date "2022-12-15")
-    (rev "3")
+    (date "2022-12-29")
+    (rev "4")
   )
 
   (layers
@@ -3498,7 +3498,7 @@
   (gr_text "OFF ←RS485→ ON" (at 125.076942 103.590588 90) (layer "F.SilkS") (tstamp 0bd65aba-7848-45a4-b6f3-fe05006afe20)
     (effects (font (size 0.9652 0.9652) (thickness 0.1778)))
   )
-  (gr_text "${TITLE} Rev. ${REVISION}" (at 153.628292 103.52826 90) (layer "F.SilkS") (tstamp 1f3bb3f9-3f61-492e-b649-09ed1297fc5b)
+  (gr_text "${TITLE} R. ${REVISION}" (at 153.628292 103.52826 90) (layer "F.SilkS") (tstamp 1f3bb3f9-3f61-492e-b649-09ed1297fc5b)
     (effects (font (size 0.8128 0.8128) (thickness 0.127)) (justify right))
   )
   (gr_text "BCK.←D5→ IN" (at 127.226981 118.762651) (layer "F.SilkS") (tstamp 5cadece9-ee46-4f31-9e24-032efe307d32)
@@ -3507,7 +3507,7 @@
   (gr_text "AUX ←D6→ IN" (at 126.826942 112.476473) (layer "F.SilkS") (tstamp 5ce0e9c1-bbb1-4b7e-8d31-1264aa2280fe)
     (effects (font (size 0.9652 0.9652) (thickness 0.1778)))
   )
-  (gr_text "WarthogAtHome.com" (at 153.628292 84.72591 90) (layer "F.SilkS") (tstamp 96a2abaa-c30c-4a99-b05f-c29991f0563f)
+  (gr_text "WarthogAtHome.com" (at 153.75 84.72591 90) (layer "F.SilkS") (tstamp 96a2abaa-c30c-4a99-b05f-c29991f0563f)
     (effects (font (size 0.6096 0.6096) (thickness 0.1016)) (justify right))
   )
   (gr_text "OFF ←TERM→ ON" (at 131.326942 103.840588 90) (layer "F.SilkS") (tstamp c7b6df8b-3be6-40e0-915b-926c2454b023)
