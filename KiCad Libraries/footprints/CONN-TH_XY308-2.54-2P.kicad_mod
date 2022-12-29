@@ -30,7 +30,7 @@
   (pad "2" thru_hole circle (at 1.270003 0.149987) (size 2 2) (drill 1.300025) (layers *.Cu *.Mask) (tstamp 968c0a58-1d9d-447d-8cff-8512377a7775))
   (model ":WarthogAtHome:CONN-TH_P2.54_KF128-2.54-2P.wrl"
     (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
+    (scale (xyz 1.098 1.05 1))
     (rotate (xyz 0 0 180))
   )
 )
