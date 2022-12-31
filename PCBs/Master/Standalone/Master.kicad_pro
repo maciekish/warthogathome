@@ -2,50 +2,50 @@
   "board": {
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.09999999999999999,
-        "copper_line_width": 0.19999999999999998,
+        "board_outline_line_width": 0.1016,
+        "copper_line_width": 0.2032,
         "copper_text_italic": false,
-        "copper_text_size_h": 1.5,
-        "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3,
+        "copper_text_size_h": 1.6256,
+        "copper_text_size_v": 1.6256,
+        "copper_text_thickness": 0.30479999999999996,
         "copper_text_upright": false,
-        "courtyard_line_width": 0.049999999999999996,
+        "courtyard_line_width": 0.0508,
         "dimension_precision": 4,
         "dimension_units": 3,
         "dimensions": {
           "arrow_length": 1270000,
-          "extension_offset": 500000,
+          "extension_offset": 508000,
           "keep_text_aligned": true,
           "suppress_zeroes": false,
           "text_position": 0,
           "units_format": 1
         },
-        "fab_line_width": 0.09999999999999999,
+        "fab_line_width": 0.127,
         "fab_text_italic": false,
-        "fab_text_size_h": 1.0,
-        "fab_text_size_v": 1.0,
-        "fab_text_thickness": 0.15,
+        "fab_text_size_h": 0.8128,
+        "fab_text_size_v": 0.8128,
+        "fab_text_thickness": 0.15239999999999998,
         "fab_text_upright": false,
-        "other_line_width": 0.15,
+        "other_line_width": 0.15239999999999998,
         "other_text_italic": false,
-        "other_text_size_h": 1.0,
-        "other_text_size_v": 1.0,
-        "other_text_thickness": 0.15,
+        "other_text_size_h": 0.8128,
+        "other_text_size_v": 0.8128,
+        "other_text_thickness": 0.15239999999999998,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.5,
+          "width": 1.0
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.127,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
-        "silk_text_upright": false,
+        "silk_text_size_h": 0.8128,
+        "silk_text_size_v": 0.8128,
+        "silk_text_thickness": 0.15239999999999998,
+        "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.6095999999999999
+          "min_clearance": 0.30479999999999996
         }
       },
       "diff_pair_dimensions": [
@@ -56,12 +56,14 @@
         }
       ],
       "drc_exclusions": [
-        "silk_overlap|117011509|108447518|a86c6b74-e791-4eed-88cb-c4c9b8cfd0e2|f00d3eec-241a-4c12-a21e-7dc0fd8cc113",
-        "silk_overlap|119150718|109504981|f00d3eec-241a-4c12-a21e-7dc0fd8cc113|4ae9366a-0795-48ab-9db4-f3cad65792a5",
-        "silk_overlap|119191114|113995852|a86c6b74-e791-4eed-88cb-c4c9b8cfd0e2|c31106cb-8f80-4db0-885a-19017eb5d43c",
-        "silk_overlap|119266645|109937626|f00d3eec-241a-4c12-a21e-7dc0fd8cc113|6596d8f1-509a-4b6c-80d2-d66644e7fc43",
-        "silk_overlap|173567233|88748796|a86c6b74-e791-4eed-88cb-c4c9b8cfd0e2|f00d3eec-241a-4c12-a21e-7dc0fd8cc113",
-        "silk_overlap|34616509|58127518|a86c6b74-e791-4eed-88cb-c4c9b8cfd0e2|f00d3eec-241a-4c12-a21e-7dc0fd8cc113"
+        "clearance|100838001|89661999|8289ba13-a797-47a9-9134-322c20d678cf|6392e4fe-bacf-4f77-81a9-08bc898b7976",
+        "clearance|101014532|89838530|bb653f14-fd46-4594-b831-cec3712ce00c|6392e4fe-bacf-4f77-81a9-08bc898b7976",
+        "clearance|101648263|90472261|bb653f14-fd46-4594-b831-cec3712ce00c|eb58e507-d763-42af-a9f7-a8525c81a275",
+        "clearance|101854003|90678001|179e199c-d719-46d6-8254-30fd1aa70870|eb58e507-d763-42af-a9f7-a8525c81a275",
+        "clearance|106681039|94378290|0717180a-f3cc-4b23-8c73-f88be17365d7|05d64669-a27c-4314-8dba-7df0e0710378",
+        "clearance|114149962|91710002|e0f7ce11-6f3e-40bb-90ce-2a05f262ade8|0adaa2a7-4155-4dff-9408-2218cf650567",
+        "clearance|115844868|87358671|e0f7ce11-6f3e-40bb-90ce-2a05f262ade8|0adaa2a7-4155-4dff-9408-2218cf650567",
+        "clearance|97501064|87724666|f5667e03-6cef-47bc-a90c-afaf0b169a0e|a9023be2-dbfd-402c-b187-4f60d62767fd"
       ],
       "meta": {
         "version": 2
@@ -70,7 +72,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -93,7 +95,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_over_copper": "ignore",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -110,17 +112,17 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.0050799999999999994,
-        "min_clearance": 0.15239999999999998,
-        "min_copper_edge_clearance": 0.381,
+        "min_clearance": 0.127,
+        "min_copper_edge_clearance": 0.19999999999999998,
         "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.127,
-        "min_microvia_diameter": 0.254,
-        "min_microvia_drill": 0.127,
+        "min_hole_to_hole": 0.5,
+        "min_microvia_diameter": 0.19999999999999998,
+        "min_microvia_drill": 0.5,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.254,
-        "min_track_width": 0.15239999999999998,
-        "min_via_annular_width": 0.127,
-        "min_via_diameter": 0.508,
+        "min_through_hole_diameter": 0.19999999999999998,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.13,
+        "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
@@ -128,15 +130,24 @@
       "track_widths": [
         0.0,
         0.1524,
+        0.1778,
         0.3048,
         0.4064,
-        0.8128,
-        3.556
+        0.6096,
+        0.8128
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.46,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.2032
         }
       ],
       "zones_allow_external_fillets": false,
@@ -337,7 +348,7 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "ignore",
+      "lib_symbol_issues": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -370,19 +381,19 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.635,
-        "microvia_drill": 0.254,
+        "microvia_diameter": 0.508,
+        "microvia_drill": 0.2032,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3048,
-        "via_diameter": 0.635,
-        "via_drill": 0.254,
+        "track_width": 0.1778,
+        "via_diameter": 0.508,
+        "via_drill": 0.2032,
         "wire_width": 12.0
       },
       {
         "bus_width": 32.0,
-        "clearance": 0.4064,
+        "clearance": 0.3048,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -390,21 +401,33 @@
         "microvia_diameter": 3.81,
         "microvia_drill": 0.762,
         "name": "High Current",
-        "nets": [
-          "+12V",
-          "+12V_2",
-          "+12V_3",
-          "/12V_2_Fused",
-          "/12V_3_Fused",
-          "12V_Fused",
-          "GND"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 3.556,
+        "track_width": 1.6256,
         "via_diameter": 3.81,
         "via_drill": 0.762,
         "wire_width": 32.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.635,
+        "microvia_drill": 0.254,
+        "name": "Medium Current",
+        "nets": [
+          "+5V"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8128,
+        "via_diameter": 0.8128,
+        "via_drill": 0.4064,
+        "wire_width": 12.0
       }
     ],
     "meta": {
@@ -417,9 +440,9 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "Master.dsn",
-      "step": "../../../../../../Desktop/Master.STEP",
-      "vrml": "../../../../../../Desktop/Master.wrl"
+      "specctra_dsn": "../../../../../../../Desktop/Mega SFF Slave.dsn",
+      "step": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
@@ -428,10 +451,16 @@
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "LCSC",
+          "url": false,
+          "visible": false
+        }
+      ],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
-      "intersheets_ref_short": false,
+      "intersheets_ref_short": true,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
@@ -463,8 +492,20 @@
   },
   "sheets": [
     [
-      "69a57d52-7921-47b3-9875-8101b82b6dd1",
+      "711498a1-6acc-4e44-8bac-e3c1c07d7291",
       ""
+    ],
+    [
+      "68ee745b-596c-4a67-aee8-25abfffd4dd4",
+      "RS485-1"
+    ],
+    [
+      "f9ff161b-9186-4be9-a538-a8b9d4717874",
+      "RS485-2"
+    ],
+    [
+      "73483c1e-25a7-4dea-aef8-e86be47a660a",
+      "RS485-3"
     ]
   ],
   "text_variables": {}

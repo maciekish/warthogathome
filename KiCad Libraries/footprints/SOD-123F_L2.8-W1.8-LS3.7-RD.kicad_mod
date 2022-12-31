@@ -28,8 +28,8 @@
   (fp_line (start 2.413 -1.143) (end 2.413 1.143) (layer "F.CrtYd") (width 0.1) (tstamp b55d4fba-201c-4f45-8d7e-49e45ff0d293))
   (fp_line (start 2.413 1.143) (end -2.413 1.143) (layer "F.CrtYd") (width 0.1) (tstamp df410b97-051b-4ea3-aa47-b7eb05249998))
   (fp_line (start -2.413 -1.143) (end 2.413 -1.143) (layer "F.CrtYd") (width 0.1) (tstamp f6e99973-50f3-40d8-b6f9-3f9af839887e))
-  (pad "1" smd rect (at -1.549911 0.006693) (size 1 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a3aacf61-c710-4293-85d3-aec3a8bdd4d9))
-  (pad "2" smd rect (at 1.549911 0.006693) (size 1 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d8b58319-651d-4eb6-ac71-599da8327fe4))
+  (pad "1" smd rect (at 1.549911 0.006693) (size 1 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d8b58319-651d-4eb6-ac71-599da8327fe4))
+  (pad "2" smd rect (at -1.549911 0.006693) (size 1 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a3aacf61-c710-4293-85d3-aec3a8bdd4d9))
   (model ":WarthogAtHome:SOD-123F_L2.8-W1.8-LS3.7-RD.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
