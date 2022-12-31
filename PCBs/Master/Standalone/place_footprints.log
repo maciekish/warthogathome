@@ -1,0 +1,45 @@
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 378:Plugin executed on: 'win32'
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 379:Plugin executed with python version: '3.9.10 (main, Jul 19 2022, 05:36:50) [MSC v.1932 64 bit (AMD64)]'
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 380:KiCad build version: (6.0.7)
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 381:Plugin version: 1.2.5
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 382:Frame repr: <wx._core.Frame object at 0x0000022733526160>
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint D2 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint R6 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint D4 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C16 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U3 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint R2 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C14 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C2 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint R1 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint D3 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint Y1 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C6 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U2 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint SW1 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J1 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint H3 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint SW2 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C12 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint H1 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C8 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint R5 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint D1 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint H4 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C1 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint R7 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C5 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C13 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint D5 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C15 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C4 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint R4 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint R3 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J2 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint R8 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C3 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C7 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint H2 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J3 on root level
+12-31 22:08:29 com_github_MitjaNemec_PlaceFootprints.place_footprints 133:Footprint Ge does not have Sheetfile property, it will not be considered for placement. Most likely it is only in layout
