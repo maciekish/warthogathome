@@ -1430,7 +1430,7 @@
   )
 
   (symbol (lib_id "Device:Fuse") (at 128.27 134.62 90) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid c6f93f97-446d-49c1-9e4e-bc5e0a4030c4)
     (property "Reference" "F4" (id 0) (at 126.9999 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
