@@ -33,15 +33,15 @@
         "other_text_thickness": 0.127,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.4,
-          "width": 1.025
+          "drill": 0.914402,
+          "height": 1.498603,
+          "width": 1.498603
         },
         "silk_line_width": 0.127,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.8128,
-        "silk_text_size_v": 0.8128,
-        "silk_text_thickness": 0.127,
+        "silk_text_size_h": 0.508,
+        "silk_text_size_v": 0.508,
+        "silk_text_thickness": 0.1016,
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
@@ -130,6 +130,7 @@
         0.5588,
         0.6096,
         0.8128,
+        1.2192,
         3.556
       ],
       "via_dimensions": [
@@ -395,8 +396,6 @@
         "name": "High Current",
         "nets": [
           "+12V",
-          "12V_Fused",
-          "12V_Ramped",
           "AUX_GND",
           "BACKLIGHT_GND"
         ],

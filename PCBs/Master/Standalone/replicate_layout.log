@@ -1,68 +1,68 @@
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 326:Plugin executed on: 'win32'
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 327:Plugin executed with python version: '3.9.10 (main, Jul 19 2022, 05:36:50) [MSC v.1932 64 bit (AMD64)]'
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 328:KiCad build version: (6.0.7)
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 329:Plugin version: 1.2.7
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 330:Frame repr: <wx._core.Frame object at 0x0000022733526160>
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 354:Preparing replicator with PSU1 as a reference
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 110:getting a list of all footprints on board
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 129:Footprint Ge does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:source anchor footprint is 'PSU1'
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 326:Plugin executed on: 'darwin'
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 327:Plugin executed with python version: '3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) \n[Clang 6.0 (clang-600.0.57)]'
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 328:KiCad build version: (6.0.7-1)-1
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 329:Plugin version: 1.2.7
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 330:Frame repr: <wx._core.Frame object at 0x7fd5c9c6fca0>
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 354:Preparing replicator with R9 as a reference
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 110:getting a list of all footprints on board
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 129:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 129:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 129:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 129:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 129:Footprint Ge does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:source anchor footprint is 'R9'
 Located on: ['RS485-1']
 With filenames: ['RS485.kicad_sch']
 With sheet_id:['RS485-1']
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 409:Corresponding footprints are 
-[('PSU2', ['RS485-2']), ('PSU3', ['RS485-3']), ('PSU1', ['RS485-1'])]
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 421:Showing dialog
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:constructing a list of sheets suitable for replication on level:'RS485-1', file:'RS485.kicad_sch'
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 395:suitable sheets are:[['RS485-2'], ['RS485-3']]
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1322:Level selected: ['RS485-1']
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1157:Filtering list of tracks
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 427:Toolbar position: wx.Point(3491, 190)
-12-31 23:26:48 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 432:Dialog position: wx.Point(3127, 190)
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:constructing a list of sheets suitable for replication on level:'RS485-1', file:'RS485.kicad_sch'
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 395:suitable sheets are:[['RS485-2'], ['RS485-3']]
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 188:Replicating layout
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 204:Starting replication of sheets: [['RS485-2'], ['RS485-3']]
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 409:Corresponding footprints are 
+[('R9', ['RS485-1']), ('R11', ['RS485-2']), ('R13', ['RS485-3'])]
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 421:Showing dialog
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:constructing a list of sheets suitable for replication on level:'RS485-1', file:'RS485.kicad_sch'
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 395:suitable sheets are:[['RS485-2'], ['RS485-3']]
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1322:Level selected: ['RS485-1']
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1157:Filtering list of tracks
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 427:Toolbar position: wx.Point(1246, 87)
+01-03 18:41:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 432:Dialog position: wx.Point(882, 87)
+01-03 18:41:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:constructing a list of sheets suitable for replication on level:'RS485-1', file:'RS485.kicad_sch'
+01-03 18:41:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 395:suitable sheets are:[['RS485-2'], ['RS485-3']]
+01-03 18:41:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1322:Level selected: ['RS485-1']
+01-03 18:41:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1157:Filtering list of tracks
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:constructing a list of sheets suitable for replication on level:'RS485-1', file:'RS485.kicad_sch'
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 395:suitable sheets are:[['RS485-2'], ['RS485-3']]
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 188:Replicating layout
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 204:Starting replication of sheets: [['RS485-2'], ['RS485-3']]
 on level: ['RS485-1']
-with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=True, locked footprints=False, group_only=False
-12-31 23:26:52 root 266:updating GUI message: 'Preparing for replication'
-12-31 23:26:52 root 271:updating GUI with: 0
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 274:Getting the list of source footprints
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 284:Getting the list of all the remaining footprints
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 291:Getting source tracks
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1157:Filtering list of tracks
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 295:Getting source zones
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 299:Getting source text items
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 303:Getting source drawing items
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 236:Removing tracks and zones, before footprint placement
-12-31 23:26:52 root 266:updating GUI message: 'Removing zones and tracks'
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1103:Remove bounding box top:86332415, bottom:102638415, Left:112994996, Right:175859997
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1103:Remove bounding box top:102071665, bottom:118377665, Left:112934825, Right:175799826
-12-31 23:26:52 root 266:updating GUI message: 'Replicating footprints'
-12-31 23:26:52 root 271:updating GUI with: 0
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 709:Replicating footprints
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 715:Replicating footprints on sheet ['RS485-2']
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 715:Replicating footprints on sheet ['RS485-3']
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 244:Removing tracks and zones, after footprint placement
-12-31 23:26:52 root 266:updating GUI message: 'Removing zones and tracks'
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1103:Remove bounding box top:86332415, bottom:102638415, Left:112994996, Right:175859997
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1103:Remove bounding box top:102071665, bottom:118377665, Left:112934825, Right:175799826
-12-31 23:26:52 root 266:updating GUI message: 'Replicating tracks'
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 875:Replicating tracks
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 881:Replicating tracks on sheet ['RS485-2']
-12-31 23:26:52 root 271:updating GUI with: 4
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 881:Replicating tracks on sheet ['RS485-3']
-12-31 23:26:52 root 266:updating GUI message: 'Replicating zones'
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 935:Replicating zones
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 942:Replicating zones on sheet ['RS485-2']
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 942:Replicating zones on sheet ['RS485-3']
-12-31 23:26:52 root 266:updating GUI message: 'Replicating text'
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1013:Replicating text
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1020:Replicating text on sheet ['RS485-2']
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1020:Replicating text on sheet ['RS485-3']
-12-31 23:26:52 root 266:updating GUI message: 'Replicating drawings'
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating drawings
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1060:Replicating drawings on sheet ['RS485-2']
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1060:Replicating drawings on sheet ['RS485-3']
-12-31 23:26:52 root 266:updating GUI message: 'Removing duplicates'
-12-31 23:26:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 204:Replication complete
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=True
+01-03 18:41:29 root 266:updating GUI message: 'Preparing for replication'
+01-03 18:41:29 root 271:updating GUI with: 0
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 274:Getting the list of source footprints
+01-03 18:41:29 root 271:updating GUI with: 0
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 284:Getting the list of all the remaining footprints
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 291:Getting source tracks
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1157:Filtering list of tracks
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 295:Getting source zones
+01-03 18:41:29 root 271:updating GUI with: 50
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 299:Getting source text items
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 303:Getting source drawing items
+01-03 18:41:29 root 266:updating GUI message: 'Replicating footprints'
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 709:Replicating footprints
+01-03 18:41:29 root 271:updating GUI with: 0
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 715:Replicating footprints on sheet ['RS485-2']
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 715:Replicating footprints on sheet ['RS485-3']
+01-03 18:41:29 root 266:updating GUI message: 'Replicating tracks'
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 875:Replicating tracks
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 881:Replicating tracks on sheet ['RS485-2']
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 881:Replicating tracks on sheet ['RS485-3']
+01-03 18:41:29 root 266:updating GUI message: 'Replicating zones'
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 935:Replicating zones
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 942:Replicating zones on sheet ['RS485-2']
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 942:Replicating zones on sheet ['RS485-3']
+01-03 18:41:29 root 266:updating GUI message: 'Replicating text'
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1013:Replicating text
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1020:Replicating text on sheet ['RS485-2']
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1020:Replicating text on sheet ['RS485-3']
+01-03 18:41:29 root 266:updating GUI message: 'Replicating drawings'
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating drawings
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1060:Replicating drawings on sheet ['RS485-2']
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1060:Replicating drawings on sheet ['RS485-3']
+01-03 18:41:29 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 204:Replication complete
